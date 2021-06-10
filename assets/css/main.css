@@ -30,9 +30,16 @@
   .section-title{
     font-size: 9rem;
     font-weight: 700;
-    color: var(--site-black)
+    color: var(--site-black);
+    transform-origin: 0 0;
 }
 
+.rotate-text{
+    transform: rotate(-90deg);
+    font-size: 9rem;
+    font-weight: 700;
+    color: var(--site-red);   
+}
 a{
     color: var(--site-black);
 }
@@ -80,6 +87,13 @@ p{
     grid-template-columns: 60% 30% ;
 }
  
+.bannler-img{
+    max-width: 900px;
+    float: right;
+}
+.slider-wrapper{
+    margin-right: 40px;
+}
 /* BANNER section LET'S TALK BUTTON */
 .talk-btn{
     margin-left: 50px;
@@ -135,5 +149,26 @@ p{
 .SEO-section{
     display: grid;
     grid-template-columns: 30% 60%;
+    padding-top: 20px;
+}
+
+
+/* APP DESIGN SECTION */
+
+.app-design-section{
+    display: grid;
+    grid-template-columns: 60% 30%;
     padding-top: 70px;
+}
+.app-design-content-wrapper{
+    margin-top: 170px
+}
+
+
+/* LOGO DESIGN SECTOP */
+
+.logo-design-wrapper{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 75px;
 }
