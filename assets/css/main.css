@@ -1,0 +1,139 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600;700&display=swap');
+/* ROOT STYLES */
+:root {
+    /* WEBSITE COLORS */
+    --site-red: #CA0000;
+    --site-black: #000000;
+    --white-color: #fff;
+
+    /* WEBSITE FONTS */
+    --teko-font:'teko', Tahoma, Geneva, Verdana, sans-serif;
+    --segoe-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+  }
+
+.main-wrapper{
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
+  h1, h2, h3 {
+      font-family: var(--teko-font);
+  }
+
+  .section-title{
+    font-size: 9rem;
+    font-weight: 700;
+    color: var(--site-black)
+}
+
+a{
+    color: var(--site-black);
+}
+ a:hover{
+     color: var(--site-red);
+     text-decoration: none;
+ }
+p{
+    font-family: var(--segoe-font);
+    font-size: 18px;
+}
+  /*   SIDEBAR NUMBERS */
+
+  .active-number{
+      color: var(--site-red);
+      font-size: 6rem;
+      font-weight: 600 !important;
+      font-family: var(--teko-font);
+  }
+  .side-number{
+      color: var(--site-black);
+      font-family: var(--teko-font);
+
+      font-size: 4.5rem;
+      font-weight: 800;
+
+  }
+ 
+.arrow-btn{
+    background-color: var(--site-red);
+    color: var(--white-color);
+    font-size: 3rem;
+    font-family: var(--segoe-font);
+    padding-top: 2px;
+    padding-bottom: 6px;
+    padding-left: 25px;
+    padding-right: 20px;
+    margin-right: 15px;
+
+}
+/* BANNER SENCTION */
+
+.banner-wrapper{
+    display: grid;
+    grid-template-columns: 60% 30% ;
+}
+ 
+/* BANNER section LET'S TALK BUTTON */
+.talk-btn{
+    margin-left: 50px;
+    font-family: var(--teko-font);
+    font-size: 2rem;
+    padding: 3px 35px;
+    background-color: var(--site-black);
+    color: var(--white-color);
+}
+
+/* WHY US SECTION */
+.why-us-section{
+    height: 550px;
+    background: var(--site-red);
+    width: 100%;
+    margin-top: 75px
+}
+.why-us-section .why-us-content-wrapper p {
+    color: var(--white-color);
+    font-family: var(--teko-font);
+    font-size: 4.5rem;
+    font-weight: 900;
+}
+
+/* WEB DESIGN SECTION */
+.why-us-content-wrapper{
+    padding-top: 150px;
+    padding-left: 180px;
+}
+
+.web-design-section{
+    padding-top: 112px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 60% 30%;  
+}
+
+.web-design-image-wrapper{
+    padding: 30px;
+}
+
+.web-design-content-wrapper{
+    margin-top: 30px;
+}
+
+.web-design-content-wrapper{
+    max-width: 413px;
+}
+
+
+/* SEO SECTION */
+
+.SEO-section{
+    display: grid;
+    grid-template-columns: 30% 60%;
+    padding-top: 70px;
+}
