@@ -23,6 +23,11 @@
     display: grid;
     grid-template-columns: 10% 90%;
 }
+
+.side-2{
+    position: sticky;
+    top: 0;
+} 
   h1, h2, h3 {
       font-family: var(--teko-font);
   }
@@ -32,6 +37,10 @@
     font-weight: 700;
     color: var(--site-black);
     transform-origin: 0 0;
+}
+
+.design-title{
+    margin-top: -60px;
 }
 
 .rotate-text{
@@ -87,10 +96,10 @@ p{
     grid-template-columns: 60% 30% ;
 }
  
-.bannler-img{
+/* .bannler-img{
     max-width: 900px;
     float: right;
-}
+} */
 .slider-wrapper{
     margin-right: 40px;
 }
