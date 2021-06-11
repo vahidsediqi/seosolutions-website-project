@@ -13,12 +13,13 @@
 </head>
 <body>
 
+
+    <!-- header -->
+
     <div class="main-wrapper">
         <div class="side-bar">
-
             <!-- sidebar goes here -->
-
-            <div class="side-2" style="background-color: #fff; padding-top: 150px;">
+            <div class="side-2">
                 <div style="margin-top: 110px; padding: 25px;">
                    <h1 class="side-number">01</h1>  
                    <h1 class="active-number" style="margin-top: -40px;">02</h1>
@@ -29,12 +30,27 @@
         <!-- side bar ends -->
 
         <div class="website-content">
+            
+    <nav id="navigation" class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="./index.html"><img src="./assets/images/site-logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link" href="#">ABOUT US</a>
+            <a class="nav-item nav-link" href="#">SERVICES</a>
+            <a class="nav-item nav-link" href="#">CONTACT US</a>
+          </div>
+        </div>
+      </nav>
+
             <div class="banner-wrapper">
                     <div class="slider-wrapper">
-                        <img class=" img-fluid" src="./assets/images/banner image.jpg" alt="">
+                        <img class="banner-image img-fluid" src="./assets/images/banner image.jpg" alt="">
                     </div>
                     <div class="value-image-wrapper">
-                        <img class=" value-image" src="./assets/images/value.png" alt="">
+                        <img class="img-fluid value-image" src="./assets/images/value.png" alt="">
                         <p style="width: 350px; margin-left: 50px; margin-top: -60px;">
                             Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
                             sed diam nonumy eirmod tempor invidunt ut labor.
@@ -44,10 +60,7 @@
             </div>
             
             <!-- WHY US SECTION -->
-            
-            
             <section class="why-us-section">
-              
                <div class="why-us-content-wrapper">
                     <h1 class="text-light">Why Us?</h1>
                     <p>
@@ -105,39 +118,45 @@
              </section>
 
              <!-- APP DESIGN SECTION -->
-             <div class="app-design-section">
-                 <!-- IMAGE WREAPPER -->
-                 <div class="app-design-image-wrapper">
-                    <img src="./assets/images/app.jpg" alt="">
-                 </div>
-
-                 <!-- CONTENT WRAPPER -->
-                 <div class="app-design-content-wrapper">
-                     <h1 class="section-title">
-                         APP
-                     </h1>
+             <section class="app-design-section">
+                <div class="app-design-image-wrapper">
+                    <img class="img-fluid"  src="./assets/images/app.jpg" alt="">
+                </div>
+                <div class="app-design-content-wrapper">
+                     <h1 class="section-title">APP</h1> 
                      <h2>Erstellung & Programmierung</h2>
                      <p>
-                        Sie haben eine App Idee? Wir setzen diese um! Unser Team bietet Ihnen eine professionelle 
-                        Appentwicklung für alle Endgeräte an. Wir fokussieren uns darauf, das Risiko Ihrer Investition 
-                        zu entfernen und Ihnen ein Produkt zu liefern, das Ihr Publikum anspricht. Unsere Programmierer testen 
-                        jede Idee, die uns vorgestellt wird, um sicherzustellen, dass Ihre Idee den Marktveränderungen und Trends standhält. 
+                        Sie haben eine App Idee? Wir setzen diese um! Unser Team bietet Ihnen eine professionelle
+                        Appentwicklung für alle Endgeräte an. Wir fokussieren uns darauf, das Risiko Ihrer Investition
+                        zu entfernen und Ihnen ein Produkt zu liefern, das Ihr Publikum anspricht. Unsere Programmierer
+                        testen jede Idee, die uns vorgestellt wird, um sicherzustellen, dass Ihre Idee den Marktveränderungen
+                        und Trends standhält. 
                      </p>
                      <a href="">
-                        <span class="arrow-btn">></span>
-                        <h1 style="display: inline;">Learn More</h1>
-                    </a>
-                 </div>
-             </div>
+                         <span class="arrow-btn">></span>
+                         <h1 style="display: inline;">Learn More</h1>
+                     </a>
+                </div>
+             </section>
 
-        <!-- APP DESIGN SECTION ENDS HERE -->
 
         <section class="logo-design-wrapper">
             <div class="logo-design-content-wrapper">
                 <h1 class="rotate-text">
                     Logodesign 
                 </h1>
-                <h2>text</h2>
+                <h2 class="app-logo-design-subtitle">Unternehmensidentität</h2>
+                <p>
+                    Steigern Sie Ihr Marketingimage mit einem modernen Logo für Ihr Unternehmen. Unser Ziel ist es
+                    mit unserer Nischenstrategie professionelle Branding Dienstleistungen anzubieten und die Zielgruppen
+                    Ihres Unternehmens direkt anzusprechen. Ein Logo ist Ihr persönliches Markenzeichen und sollte nicht nur gut aussehen,
+                    sondern auch die Botschaft Ihrer Firma unterstützen.
+                    Unsere Grafiker achten auf die richtige Farbauswahl und zeichnen jedes Logo individuell. 
+                </p>
+                <a href="">
+                    <span class="arrow-btn">></span>
+                    <h1 style="display: inline;">Learn More</h1>
+                </a>
             </div>
 
             <!-- LOGO DESIGN IMAGE WRAPPER -->
@@ -146,12 +165,55 @@
             </div>
         </section>
 
+        <section class="carousel-wrapper">
+            <div class="carousel-inner1">
+               <h2 class="carousel-title">V-design35</h2>
+            </div>
 
+            <div class="carousel-inner2">
+               <p class="carousel-p">"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                   eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+                   At vero eos et accusam et justo duo dolores et ea rebum."</p>
+                   <h3>John Doe - CEO </h3>
+            </div>
             
+         </section>
+            <!-- CONTANCT US SECTION -->
+
+            <div class="contact-section-wrapper">
+                <div class="contact-section-content">
+                  <h1 class="contact-title">Co</h1>
+                  <h1 class="contact-title top-margin-">nta</h1>
+                  <h1 class="contact-title top-margin-">ct</h1>
+                  <span class="contact-subtitle">Move Your  Company To  Whole Anotler</span><br>
+                  <span class="contact-subtitle" style="color: #CA0000">LEVEL.</span>
+                </div>
+
+                <!-- CONTACT FORM -->
+                <div class="form-wrapper">
+                   <form action="">
+                       <input class="form-fields" type="text" name="" id="" placeholder="Name">
+                       <input class="form-fields" type="text" name="" id="" placeholder="phone">
+                       <input class="form-fields" type="email" name="" id="" placeholder="email">
+                       <textarea class="form-text" placeholder="Details"></textarea>
+                       <input class="talk-btn" type="submit" value="Let's Talk">
+                   </form>
+                </div>
+            </div>
+
+            <!--   SHOWCASE -->
+
+            <section class="showcase-wrapper">
+               <div>
+                <h1 class="showcase-title">From Vienna, To Whole Galaxy</h1>
+                <h2 class="showcase-sub-title">More About Us</h2>
+               </div>
+            </section>
         </div>
         <!-- WEBSITE CONTENT END HERE -->
     </div>
-<!-- BANNER SECTION -->
+
+
 
 
 

@@ -19,36 +19,32 @@
       box-sizing: border-box;
   }
 
+ 
+
 .main-wrapper{
     display: grid;
-    grid-template-columns: 10% 90%;
+    grid-template-columns: 8% 92%;
+    background-color: #EDF0F2;
+
 }
+
+
 
 .side-2{
     position: sticky;
     top: 0;
+    z-index: 999;
+    padding-top: 130px;
 } 
   h1, h2, h3 {
       font-family: var(--teko-font);
   }
 
-  .section-title{
-    font-size: 9rem;
-    font-weight: 700;
-    color: var(--site-black);
-    transform-origin: 0 0;
-}
-
 .design-title{
     margin-top: -60px;
 }
 
-.rotate-text{
-    transform: rotate(-90deg);
-    font-size: 9rem;
-    font-weight: 700;
-    color: var(--site-red);   
-}
+
 a{
     color: var(--site-black);
 }
@@ -59,6 +55,25 @@ a{
 p{
     font-family: var(--segoe-font);
     font-size: 18px;
+}
+
+/* navigation */
+
+#navigation{
+    width: 80%;
+    margin-left: 110px;
+}
+  .section-title{
+    font-size: 9rem;
+    font-weight: 700;
+    color: var(--site-black);
+    transform-origin: 0 0;
+}
+
+.nav-item{
+    padding: 45px !important;
+    font-family: var(--segoe-font);
+    font-size: 1.3rem;
 }
   /*   SIDEBAR NUMBERS */
 
@@ -92,16 +107,15 @@ p{
 /* BANNER SENCTION */
 
 .banner-wrapper{
-    display: grid;
-    grid-template-columns: 60% 30% ;
+    display: flex;
+    justify-content: right;
+    width: 90%;
 }
- 
-/* .bannler-img{
-    max-width: 900px;
-    float: right;
-} */
+
+
 .slider-wrapper{
-    margin-right: 40px;
+    max-width: 970px;
+    margin-right: 55px;
 }
 /* BANNER section LET'S TALK BUTTON */
 .talk-btn{
@@ -127,57 +141,225 @@ p{
     font-weight: 900;
 }
 
-/* WEB DESIGN SECTION */
 .why-us-content-wrapper{
     padding-top: 150px;
     padding-left: 180px;
 }
 
+
+/* WEB DESIGN SECTION */
+
 .web-design-section{
-    padding-top: 112px;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 60% 30%;  
+    margin-top: 80px;
+    display: flex;
+    width: 90%;
+    justify-content: right;
 }
 
 .web-design-image-wrapper{
-    padding: 30px;
+    margin-right: 55px;
 }
 
 .web-design-content-wrapper{
-    margin-top: 30px;
+    max-width: 450px;   
+    margin-left: 70px; 
 }
 
-.web-design-content-wrapper{
-    max-width: 413px;
-}
 
 
 /* SEO SECTION */
 
 .SEO-section{
-    display: grid;
-    grid-template-columns: 30% 60%;
-    padding-top: 20px;
+    display: flex;
+    max-width: 95%;
+    justify-content: right;
 }
 
+.SEO-content-wrapper{
+    max-width: 480px;
+}
 
 /* APP DESIGN SECTION */
 
+
 .app-design-section{
-    display: grid;
-    grid-template-columns: 60% 30%;
-    padding-top: 70px;
+    margin-top: 80px;
+    display: flex;
+    width: 90%;
+    justify-content: right;
 }
+
+.app-design-image-wrapper{
+    margin-right: 55px;
+}
+
 .app-design-content-wrapper{
-    margin-top: 170px
+    padding-top: 145px;
+    max-width: 450px;   
+    margin-left: 70px; 
+    position: relative;
+
 }
 
 
-/* LOGO DESIGN SECTOP */
 
+/* LOGO DESIGN SECTION */
+.rotate-text{
+    transform: rotate(-90deg);
+    font-size: 9rem;
+    font-weight: 600;
+    color: var(--site-red); 
+    position: absolute;
+    left: 0;
+    margin-top: 200px;
+    text-transform: uppercase;
+}
 .logo-design-wrapper{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    margin-top: 75px;
+    margin-top: 175px;
+    display: flex;
+    max-width: 90%;
+    justify-content: right;
 }
+
+.logo-design-content-wrapper{
+  max-width: 500px;
+  padding-top: 105px;
+}
+.logo-design-image-wrapper{
+  margin-left: 70px;
+}
+
+.app-logo-design-subtitle{
+    margin-top: 100px;
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+/* CAROUSEL SECTION */
+
+.carousel-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    background-color: #fff;
+    height: 700px;
+    background-image: url('../images/bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.carousel-inner2{
+    max-width: 850px;
+    margin-left: 70px;
+}
+
+.carousel-p{
+   font-size: 22px;
+}
+.carousel-title{
+    color: #707070;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+/* HOME PAGE CONTACT FORM */
+
+.contact-section-wrapper{
+    margin-top: 75px;
+    display: flex;
+    max-width: 75%;
+    justify-content: right;
+}
+
+.form-fields {
+    display: block;
+    margin-bottom: 45px;
+    width: 100%;
+    height: 70px;
+    background-color: #000000;
+    padding-top: 3px;
+    padding-left: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+}
+
+input::-webkit-input-placeholder {
+    color: #fff !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+     
+    input:-moz-placeholder { /* Firefox 18- */
+    color: #fff !important;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+     
+    input::-moz-placeholder {  /* Firefox 19+ */
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff !important;  
+    }
+     
+    input:-ms-input-placeholder {  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff !important;  
+    }
+
+    .form-text{
+        width: 100%;
+        height: 300px;
+        margin-bottom: 34px;
+        background-color: #000000;
+        color: white;
+        padding: 25px;
+    }
+
+    .contact-section-content{
+        max-width: 400px;
+        padding-top: 45px;
+    }
+.form-wrapper{
+    width: 570px;
+    margin-left: 70px;
+    text-align: center;
+}
+
+.contact-title{
+    font-size: 12rem;
+    font-weight: 800;
+    color: var(--site-red);
+    line-height: 0.7;
+}
+
+
+.contact-subtitle{
+ font-family: var(--teko-font);
+ font-size: 4rem;
+ line-height: 1;
+}
+
+/* SHOWCASE */
+.showcase-wrapper{
+    margin-top: 70px;
+    height: 700px;
+    width: 100%;
+    background-image: url('../images/vena.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+    padding-left: 120px;
+  }
+.showcase-title{
+    color: #fff;
+    font-size: 66px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.showcase-sub-title{
+    color: #fff;
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+    
