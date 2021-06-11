@@ -246,7 +246,7 @@ p{
     height: 700px;
     background-image: url('../images/bg.png');
     background-repeat: no-repeat;
-    background-position: left;
+    background-position:left bottom;
 }
 
 .carousel-inner2{
@@ -349,11 +349,13 @@ input::-webkit-input-placeholder {
     display: flex;
     justify-content: start;
     align-items: flex-end;
+    padding-bottom: 55px;
     padding-left: 120px;
   }
 .showcase-title{
     color: #fff;
     font-size: 66px;
+    font-weight: 700;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -363,3 +365,74 @@ input::-webkit-input-placeholder {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
     
+/* SERVICES SECTOIN */
+.services-wrapper{
+ background-color: #000000;
+ height: 650px;
+ display: flex;
+ align-items: center;
+ justify-content: right;
+ 
+}
+
+.service-title-wrapper{
+
+}
+
+.service-title{
+ font-family: var(--teko-font);
+ color: #fff;
+ font-size: 65px;
+}
+
+.service-list-wrapper{
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+
+
+.service-list{
+ list-style: none;
+}
+
+
+.service-link-item{
+    color: #fff ;
+    font-family: var(--teko-font);
+    font-size: 45px;
+}
+
+/* BLOG WRAPPER */
+
+.blog-wrapper{
+ width: 90%;
+}
+
+.blog-section-title{
+ padding-top: 80px;
+}
+
+.blog-title{
+font-size: 10rem;
+font-weight: 800;
+color: var(--site-red);
+line-height: 0.5;
+
+}
+.blog-subtitle{
+  font-size: 60px;
+}
+.blog-card-wrapper{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.more-blog{
+    width: 500px;
+    height: 500px;
+}
+.blog-card{
+
+}
