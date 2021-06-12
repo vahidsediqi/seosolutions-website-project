@@ -54,7 +54,6 @@ a{
  }
 p{
     font-family: var(--segoe-font);
-    font-size: 18px;
 }
 
 /* navigation */
@@ -79,15 +78,14 @@ p{
 
   .active-number{
       color: var(--site-red);
-      font-size: 6rem;
+      font-size: 5rem;
       font-weight: 600 !important;
       font-family: var(--teko-font);
   }
   .side-number{
       color: var(--site-black);
       font-family: var(--teko-font);
-
-      font-size: 4.5rem;
+      font-size: 4rem;
       font-weight: 800;
 
   }
@@ -151,18 +149,19 @@ p{
 
 .web-design-section{
     margin-top: 80px;
-    display: flex;
     width: 90%;
-    justify-content: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
 }
 
 .web-design-image-wrapper{
-    margin-right: 55px;
+    width: 50%;   
 }
 
 .web-design-content-wrapper{
-    max-width: 450px;   
-    margin-left: 70px; 
+    width: 35%;   
 }
 
 
@@ -170,15 +169,20 @@ p{
 /* SEO SECTION */
 
 .SEO-section{
+    margin-top: 80px;
+    width: 90%;
     display: flex;
-    max-width: 95%;
-    justify-content: right;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .SEO-content-wrapper{
-    max-width: 480px;
+    width: 45%;   
 }
 
+.SEO-image-wrapper{
+    width: 55%;     
+}
 /* APP DESIGN SECTION */
 
 
@@ -423,14 +427,14 @@ line-height: 0.5;
   font-size: 60px;
 }
 .blog-card-wrapper{
-    display: flex;
-    justify-content: space-between;
-    
+    max-width: 90%;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-gap: 50px;
+   float: right;
 }
 
 .more-blog{
-    width: 500px;
-    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -442,7 +446,8 @@ line-height: 0.5;
     font-family: var(--segoe-font);
 }
 .blog-card {
-    position: relative;
+    position: relative;   
+
    }
 
 .blog-card div{
