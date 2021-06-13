@@ -272,10 +272,17 @@ p{
 .contact-section-wrapper{
     margin-top: 75px;
     display: flex;
-    max-width: 75%;
-    justify-content: right;
+    max-width: 90%;
+    justify-content: flex-end;
 }
 
+.form-wrapper{
+    max-width: 50%;
+}
+
+.contact-section-content-wrapper{
+ max-width: 30%;
+}
 .form-fields {
     display: block;
     margin-bottom: 45px;
@@ -372,26 +379,24 @@ input::-webkit-input-placeholder {
 /* SERVICES SECTOIN */
 .services-wrapper{
  background-color: #000000;
- height: 650px;
+ height: 600px;
  display: flex;
  align-items: center;
- justify-content: right;
+ justify-content: space-around;
  
 }
 
+.service-title-wrapper{
+}
 
-
+.service-list-wrapper{
+}
 .service-title{
  font-family: var(--teko-font);
  color: #fff;
  font-size: 65px;
 }
 
-.service-list-wrapper{
-    padding-left: 20%;
-    padding-right: 20%;
-
-}
 
 
 .service-list{
@@ -402,7 +407,7 @@ input::-webkit-input-placeholder {
 .service-link-item{
     color: #fff ;
     font-family: var(--teko-font);
-    font-size: 45px;
+    font-size: 35px;
 }
 
 /* BLOG WRAPPER */
