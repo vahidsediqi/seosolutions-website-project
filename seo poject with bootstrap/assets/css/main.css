@@ -1,0 +1,139 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600;700&display=swap');
+/* ROOT STYLES */
+:root {
+    /* WEBSITE COLORS */
+    --site-red: #CA0000;
+    --site-black: #000000;
+    --white-color: #fff;
+
+    /* WEBSITE FONTS */
+    --teko-font:'teko', Tahoma, Geneva, Verdana, sans-serif;
+    --segoe-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+  }
+
+  .talk-btn{
+    margin-left: 50px;
+    font-family: var(--teko-font);
+    font-size: 2rem;
+    padding: 3px 35px;
+    background-color: var(--site-black);
+    color: var(--white-color);
+}
+
+h1, h2, h3 {
+    font-family: var(--teko-font);
+    color: var(--site-black);
+}
+
+.mt-80{
+    margin-top: 80px;
+}
+  /*   SIDEBAR NUMBERS */
+
+  .side-2{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    padding-top: 130px;
+}
+  .active-number{
+    color: var(--site-red);
+    font-size: 5rem;
+    font-weight: 600 !important;
+    font-family: var(--teko-font);
+}
+.side-number{
+    color: var(--site-black);
+    font-family: var(--teko-font);
+    font-size: 4rem;
+    font-weight: 800;
+
+}
+.arrow-btn{
+    background-color: var(--site-red);
+    color: var(--white-color);
+    font-size: 3rem;
+    font-family: var(--segoe-font);
+    padding-top: 2px;
+    padding-bottom: 6px;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+
+.section-title{
+    font-size: 8rem;
+    font-weight: 700;
+    color: var(--site-black);
+    line-height: 0.8;
+}
+ /* Main Wrapper */
+ .main-wrapper{
+     display: flex;
+     justify-content: flex-end;
+ }
+
+/* Sticky Sidebar */
+.side-bar{
+    width: 8%;
+}
+
+
+a{
+    color: var(--site-black);
+}
+ a:hover{
+     color: var(--site-red);
+     text-decoration: none;
+ } 
+/* Side Content main wrapper */
+.site-content-wrapper{
+    width: 92%;
+}
+
+.banner-content-wrapper{
+    margin-top: -45px;
+}
+.paraghraph{
+    max-width: 400px;
+    margin-top: -55px;
+    margin-left: 50px;
+}
+
+/* WHY US SECTION */
+.why-us-section{
+    height: 550px;
+    background: var(--site-red);
+    width: 100%;
+    margin-top: 75px
+}
+.why-us-section .why-us-content-wrapper p {
+    color: var(--white-color);
+    font-family: var(--teko-font);
+    font-size: 4.5rem;
+    font-weight: 900;
+}
+
+.why-us-content-wrapper{
+    padding-top: 150px;
+    padding-left: 180px;
+}
+
+
+
+/*   APP SECTION */
+
+.SEO-section{
+    margin-top: 85px;
+}
+
+.app-design-content-wrapper{
+    margin-left: 45px;
+}
