@@ -93,7 +93,7 @@ a{
      color: var(--site-red);
      text-decoration: none;
  } 
-/* Side Content main wrapper */
+/* website Content main wrapper */
 .site-content-wrapper{
     width: 92%;
 }
@@ -101,6 +101,7 @@ a{
 .banner-content-wrapper{
     margin-top: -45px;
 }
+
 .paraghraph{
     max-width: 400px;
     margin-top: -55px;
