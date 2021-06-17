@@ -19,16 +19,11 @@
       box-sizing: border-box;
   }
 
- 
-
 .main-wrapper{
     display: grid;
     grid-template-columns: 8% 92%;
     background-color: #EDF0F2;
-
 }
-
-
 
 .side-2{
     position: sticky;
@@ -36,12 +31,15 @@
     z-index: 999;
     padding-top: 130px;
 } 
-  h1, h2, h3 {
+  h1, h2{
       font-family: var(--teko-font);
+      font-size: 3rem;
+      font-weight: 600 !important;
   }
 
-.design-title{
-    margin-top: -60px;
+
+.line-height{
+    line-height: 0.8;
 }
 
 
@@ -55,18 +53,29 @@ a{
 p{
     font-family: var(--segoe-font);
 }
-
+.section-p{
+    max-width: 400px;
+}
 /* navigation */
 
 #navigation{
     width: 80%;
     margin-left: 110px;
 }
-  .section-title{
+  .section-title-black{
     font-size: 9rem;
     font-weight: 700;
     color: var(--site-black);
-    transform-origin: 0 0;
+    line-height: 0.9;
+}
+
+.red-title{
+    /* transform: rotate(-90deg); */
+    font-size: 8rem;
+    font-weight: 600;
+    color: var(--site-red); 
+    text-transform: uppercase;
+    font-family: var(--teko-font);
 }
 
 .nav-item{
@@ -122,6 +131,7 @@ p{
     padding: 3px 35px;
     background-color: var(--site-black);
     color: var(--white-color);
+    border: none;
 }
 
 /* WHY US SECTION */
@@ -204,41 +214,31 @@ p{
 
 }
 
-
-
 /* LOGO DESIGN SECTION */
-.rotate-text{
-    transform: rotate(-90deg);
-    font-size: 9rem;
-    font-weight: 600;
-    color: var(--site-red); 
-    position: absolute;
-    left: 0;
-    margin-top: 200px;
-    text-transform: uppercase;
-}
+
 .logo-design-wrapper{
     margin-top: 175px;
     display: flex;
     max-width: 90%;
-    justify-content: right;
+    justify-content: space-around;
+    align-items: center;
 }
+
 
 .logo-design-content-wrapper{
   max-width: 500px;
-  padding-top: 105px;
 }
 .logo-design-image-wrapper{
   margin-left: 70px;
 }
 
-.app-logo-design-subtitle{
-    margin-top: 100px;
+.section-subtitle{
     font-weight: 800;
     font-size: 3rem;
+    font-family: var(--teko-font);
 }
 
-/* CAROUSEL SECTION */
+/* Testimonials carusal  */
 
 .carousel-wrapper{
     display: flex;
@@ -266,22 +266,23 @@ p{
     font-weight: 600;
 }
 
+
+
 /* HOME PAGE CONTACT FORM */
 
 .contact-section-wrapper{
     margin-top: 75px;
     display: flex;
-    max-width: 90%;
-    justify-content: flex-end;
+    max-width: 85%;
+    justify-content: space-around;
 }
 
-.form-wrapper{
-    flex: 1.5;
-}
+
 
 .contact-section-content-wrapper{
-flex: 1
-;}
+ flex: 1;
+ max-width: 550px;
+}
 .form-fields {
     display: block;
     margin-bottom: 45px;
@@ -462,10 +463,140 @@ line-height: 0.5;
  padding-left: 15px;
 }
 
+/* SEO PAGE STYLE */
+
+.banner-2-content-wrapper{
+    margin-left: 60px;
+}
+
+/* PROMOTION SECTION  */
+.upto{
+ position: absolute;
+ left: 0;
+ max-width: 110px;
+}
+
+.upto-parent{
+ position: relative;
+}
+.promotion-section-wrapper{
+    padding-top: 80px;
+}
+
+.promotion-section-wrapper > .row > .col p {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.pro-inner-div{
+    background-color: var(--site-red);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 220px;
+    width: 220px;
+    text-align: center;
+}
+
+.pro-card-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+.pro-inner-div h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.cta-section{
+    padding-top: 90px;
+}
+.cta-content-wrapper{
+    margin-left: 85px;
+}
+
+.cta-input {
+    margin-bottom: 45px;
+    width: 70%;
+    height: 70px;
+    background-color: #000000;
+    padding-top: 3px;
+    padding-left: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+}
+
+.cta-form-button{
+    height: 70px;
+    white-space: 20%;
+    background-color: var(--site-red);
+    color: #fff;
+    font-weight: 600;
+    border: none; 
+    margin-left: -8px;
+    font-family: var(--teko-font);
+    font-size: 2rem;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* SEO TOOLS */
+
+.seo-tools-wrapper > .row .col-12 > div{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+.seo-tools-wrapper{
+    padding-top: 80px;
+}
+
+/* PAGE >> WEB DESIGN  */
+.webdesign-title-wrapper{
+    padding-left: 100px;
+    margin-top: -300px;
+}
+.half-cut-title{
+    display: flex;
+    flex-direction: column;
+    font-size: 9rem;
+    line-height: 0.8;
+    color: var(--site-red);
+}
+
+.webdesign-rotate-title{
+    font-size: 6rem;
+    transform: rotate(-90deg);
+    margin-left: -650px;
+    overflow: visible;
+}
+/* IU Expertise */
+.ui-xpertise{
+    margin-bottom: 200px;
+}
+.landscape-card-wprapper{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    height: 350px
+}
+.landscape-card{
+    justify-content: center;
+    align-items: center; 
+    border: 1px black solid;
+    margin: 25px;
+    display: flex;
+    height: 200px
+}
 /* FOOTER SECTION */
 .footer-section-wrapper{
     background-image: url('../images/footer-bg.jpg');
-    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
     display: flex;
     justify-content: space-around;
     padding-top: 8%;
@@ -504,3 +635,5 @@ line-height: 0.5;
 .footer-inner p a{
     color: #fff;
 }
+
+

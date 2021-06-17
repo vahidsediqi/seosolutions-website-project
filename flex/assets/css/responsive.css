@@ -1,39 +1,238 @@
- /* LATOP AND LARG SCREEN SIZER
+/* MANIPULATING BOOTSTRAP GRID */
 
-@media only screen and (max-width: 1700px) {
-    p{
-        font-size: 15px;
-    }
-    .banner-wrapper{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    .slider-wrapper{
-        margin-right: 25px;
-    }
+@media only screen and (min-width: 1700PX){
+  .container{
+      max-width: 75%;
+      margin: 0 auto;
+  }
+}
 
-    .value-image-wrapper{
-        margin-top: -50px;
-    }
+ /* (SMALL SCREEN SIZE) MOBILE SCREEN < 420PX */
+@media only screen and (max-width: 460PX) {
+  .side-bar{
+      display: none;
+  }
 
-    .value-image{
-        width: 320px;
-    }
+  .main-wrapper{
+   display: block
+  }
+  .section-p{
+    max-width: 100%;
+}
+  .section-title-black{
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--site-black);
+    transform-origin: 0 0;
+}
+   /* banner  */
+.banner-wrapper{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column-reverse;
+    width: 100%;
+    margin: auto;
+    padding: 25px;
+}
 
-    .web-design-section{
-        grid-template-columns: 1fr 1fr;  
-    }
+.slider-wrapper{
+    margin-top: 54px;
+    width: 100%;
+    padding: 15px;
+}
+ 
+/* why us */
+.why-us-section{
+    background: var(--site-red);
+    width: 100%;
+    margin-top: 75px;
+    height: auto;
+}
+.why-us-section .why-us-content-wrapper p {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
 
-    .section-title{
-        font-size: 5.5rem;
-    }
+.why-us-content-wrapper{
+    padding: 40px;
+}
 
-    .design-title{
+/* web design */
+
+.web-design-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.web-design-image-wrapper{
+    width: 100%;   
+    padding: 15px;
+}
+
+.web-design-content-wrapper{
+    width: 90%; 
+    margin-top: 45px;  
+}
+
+/* SEO SECTION */
+
+.SEO-section{
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+
+.SEO-content-wrapper{
+    width: 100%;
+    padding: 25px;   
+}
+
+.SEO-image-wrapper{
+    width: 100%;
+    padding: 25px;
+}
+
+/* APP DESIGN SECTION */
+.app-design-section{
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+
+.app-design-image-wrapper{
+    margin:auto;
+    padding: 25px;
+}
+
+.app-design-content-wrapper{
+    padding-top: 145px;
+    max-width: 450px; 
+    margin: auto; 
+    padding: 25px;
+}
+
+/* LOGO DESING */
+
+.logo-design-wrapper{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: 100%;
+    align-items: center;
+}
+
+.rotate-text{
+    /* transform: rotate(-90deg); */
+    font-size: 4rem;
+    font-weight: 600;
+    color: var(--site-red); 
+    text-transform: uppercase;
+}
+
+.logo-design-content-wrapper{
+  max-width: 100%;
+  padding: 25px;
+}
+.logo-design-image-wrapper{
+  margin: auto;
+  padding: 25px;
+}
+
+.section-subtitle{
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+/* Testimonials carusal */
+
+.carousel-wrapper{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin: auto;
+ height: auto;
+ padding-top: 45px;
+ padding-bottom: 85px;
+ background-image: none;
+}
+
+.carousel-inner2{
+    max-width: 100%;
+    margin: auto;
+}
+
+.carousel-p{
+   font-size: 22px;
+   padding: 25px;
+}
+
+/* HOME PAGE CONTACT FORM */
+
+.contact-section-wrapper{
+    margin-top: 75px;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 25px;
+}
+
+.contact-section-content{
+    width: 100%;
+    padding: 25px;
+}
+
+.contact-section-content-wrapper{
+ flex: 1;
+ width: 100%;
+ padding: 25px;
+}
+
+.form-wrapper{
+    width: 100%;
+    margin: auto;
+    padding: 25px;
+}
+
+.contact-title{
+    font-size: 9rem;
+}
+
+
+.contact-subtitle{
+ font-family: var(--teko-font);
+ font-size: 4rem;
+ line-height: 1;
+}
+
+
+
+/* FOOTER SECTION */
+
+.footer-section-wrapper{
+    height: auto;
+    flex-direction: column-reverse;
+    padding-top: 8%;
+}
+
+
+  }
+
+
+
+  /* (MEDIUM SCREEN) TABLET SCREEN  421PX - 1200PX */
+  @media only screen and (min-width: 421PX){
+   
+  }
+
+  /* (LARGE SCREEN) 1201PX - 1800PX*/
+
+  @media only screen and (max-width: 1201PX){
        
-            margin-top: -40px;
-    }
-
-    .web-design-image-wrapper{
-        padding-top: 80px;
-    }
-  } */
+}
