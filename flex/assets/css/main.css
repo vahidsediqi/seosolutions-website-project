@@ -579,8 +579,8 @@ line-height: 0.5;
 }
 .landscape-card-wprapper{
     display: grid;
-    grid-template-columns: 30% 30% 30%;
-    height: 350px
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
 }
 .landscape-card{
     justify-content: center;
@@ -591,12 +591,12 @@ line-height: 0.5;
     height: 200px
 }
 /* FOOTER SECTION */
-.footer-section-wrapper{
+   .footer-section-wrapper{
     background-image: url('../images/footer-bg.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 60vh;
+    height: auto;
     display: flex;
     justify-content: space-around;
     padding-top: 8%;
