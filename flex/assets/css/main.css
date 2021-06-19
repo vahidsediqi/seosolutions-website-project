@@ -1,7 +1,12 @@
-/* Fonts */
+/*=============================================
+=           FONTS           =
+=============================================*/
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@600;700&display=swap');
-/* ROOT STYLES */
+
+/*=============================================
+=            Colors and Fonts             =
+=============================================*/
 :root {
     /* WEBSITE COLORS */
     --site-red: #CA0000;
@@ -13,33 +18,19 @@
     --segoe-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
+  /*=============================================
+=             Normalize             =
+=============================================*/
   *{
       padding: 0;
       margin: 0;
       box-sizing: border-box;
   }
 
-.main-wrapper{
-    display: grid;
-    grid-template-columns: 8% 92%;
-    background-color: #EDF0F2;
-}
-
-.side-2{
-    position: sticky;
-    top: 0;
-    z-index: 999;
-    padding-top: 130px;
-} 
   h1, h2{
-      font-family: var(--teko-font);
-      font-size: 3rem;
-      font-weight: 600 !important;
-  }
-
-
-.line-height{
-    line-height: 0.8;
+    font-family: var(--teko-font);
+    font-size: 3rem;
+    font-weight: 600 !important;
 }
 
 
@@ -53,10 +44,31 @@ a{
 p{
     font-family: var(--segoe-font);
 }
+
 .section-p{
     max-width: 400px;
 }
-/* navigation */
+  /*=============================================
+=             Hompage Main Wrapper             =
+=============================================*/
+.main-wrapper{
+    display: grid;
+    grid-template-columns: 8% 92%;
+    background-color: #EDF0F2;
+}
+
+.side-2{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    padding-top: 130px;
+} 
+ 
+
+
+  /*=============================================
+=             NAVIGATION             =
+=============================================*/
 
 #navigation{
     width: 80%;
@@ -83,7 +95,9 @@ p{
     font-family: var(--segoe-font);
     font-size: 1.3rem;
 }
-  /*   SIDEBAR NUMBERS */
+    /*=============================================
+=            SIDEBAR STICKY NUMBER           =
+=============================================*/
 
   .active-number{
       color: var(--site-red);
@@ -463,13 +477,15 @@ line-height: 0.5;
  padding-left: 15px;
 }
 
-/* SEO PAGE STYLE */
+  /*=============================================
+=             SEO PAGE          =
+=============================================*/
 
 .banner-2-content-wrapper{
     margin-left: 60px;
 }
 
-/* PROMOTION SECTION  */
+/* SEO PROMOTION SECTION  */
 .upto{
  position: absolute;
  left: 0;
@@ -542,6 +558,21 @@ line-height: 0.5;
     padding-right: 15px;
 }
 
+.cta-overlay-text-parent {
+ position: relative;
+}
+
+.cta-overlay-text{
+ position: absolute;
+ color: red;
+ margin-top: 70px;
+ right: 0;
+ top: 0;
+ margin-right: 100px;
+ font-family: var(--segoe-font);
+ font-size: 90px;
+ transform: rotate(-30deg);
+}
 /* SEO TOOLS */
 
 .seo-tools-wrapper > .row .col-12 > div{
@@ -554,7 +585,9 @@ line-height: 0.5;
     padding-top: 80px;
 }
 
-/* PAGE >> WEB DESIGN  */
+  /*=============================================
+=             WEB DESIGN PAGE STYLES          =
+=============================================*/
 .webdesign-title-wrapper{
     padding-left: 100px;
     margin-top: -300px;
@@ -577,19 +610,162 @@ line-height: 0.5;
 .ui-xpertise{
     margin-bottom: 200px;
 }
+
+.ui-xpertise> .row >h1 {
+    margin-left: 50px;
+}
 .landscape-card-wprapper{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 15px;
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    grid-gap: 10px;
 }
+
 .landscape-card{
     justify-content: center;
     align-items: center; 
     border: 1px black solid;
-    margin: 25px;
     display: flex;
-    height: 200px
+    height: 300px;
+    position: relative;
 }
+.landscape-card-overlay{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+
+.landscape-card-overlay > p {
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.landscape-card:hover .landscape-card-overlay{
+  display: flex;
+}
+
+.landscape-card:hover h2{
+  display: none;
+}
+.Information-architecture{
+ background-image: url('../images/information-arch.png');
+ background-size: cover;
+ background-repeat: no-repeat;
+ color: var(--white-color);
+}
+
+.user-flow{
+    background-image: url('../images/user-flow.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--white-color);
+}
+.wireframing{
+    background-image: url('../images/wire-friming.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--white-color);
+}
+.user-interface{
+    background-image: url('../images/user-interface.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--white-color);
+}
+
+.responsive-design{
+    background-image: url('../images/responsive-design.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--white-color);
+}
+.prototyping{
+    background-image: url('../images/prototyoing.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--white-color);
+}
+
+
+/* WEB DESIGN BUILDER TOOLS */
+
+.sub-upper-title-wrapper{
+    display: flex;
+    flex-direction: column;
+    line-height: 0.8;
+}
+
+.sub-upper-title-wrapper > p:nth-of-type(1){
+    font-family: var(--teko-font);
+    font-weight: bold;
+  }
+
+.sub-upper-title-wrapper > p:nth-of-type(2){
+  font-family: var(--teko-font);
+  font-size: 43px;
+  font-weight: 600;
+}
+
+.sub-upper-title-wrapper > h1:nth-of-type(1){
+  font-size: 280px;
+  color: var(--site-red);
+  font-family: var(--teko-font); 
+  line-height: 0.8;
+}
+
+.sub-upper-title-wrapper > h1:nth-of-type(2){
+    line-height: 0.8;
+  }
+
+
+  /* Development Expertise*/
+  .responsive-layout{
+    background-image: url('../images/responsive-layout.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--white-color);
+}
+
+  
+  .component-based{
+    background-image: url('../images/Component-based.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--white-color);
+  }
+  .modern-js{
+    background-image: url('../images/modern-js.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--white-color);
+  }
+  .living-style{
+    background-image: url('../images/lifing-style.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--white-color);
+  }
+  .maintainable-css{
+    background-image: url('../images/maintainble-css.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--white-color);
+  }
+  .universal-app{
+    background-image: url('../images/universal-app.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--white-color);
+  }
+      
+
+
+
+
 /* FOOTER SECTION */
    .footer-section-wrapper{
     background-image: url('../images/footer-bg.jpg');
