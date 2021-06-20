@@ -88,6 +88,7 @@ p{
     color: var(--site-red); 
     text-transform: uppercase;
     font-family: var(--teko-font);
+    line-height: 0.8;
 }
 
 .nav-item{
@@ -476,12 +477,11 @@ line-height: 0.5;
  margin-bottom: 20px;
  padding-left: 15px;
 }
-
   /*=============================================
 =             SEO PAGE          =
 =============================================*/
 
-.banner-2-content-wrapper{
+.seo-banner-content-wrapper{
     margin-left: 60px;
 }
 
@@ -489,7 +489,7 @@ line-height: 0.5;
 .upto{
  position: absolute;
  left: 0;
- max-width: 110px;
+ max-width: 95px;
 }
 
 .upto-parent{
@@ -589,9 +589,21 @@ line-height: 0.5;
 =             WEB DESIGN PAGE STYLES          =
 =============================================*/
 .webdesign-title-wrapper{
-    padding-left: 100px;
-    margin-top: -300px;
+    padding-left: 180px;
+    position: relative;
+
 }
+
+.webdesign-rotate-title{
+    font-size: 6rem;
+    transform: rotate(270deg);
+    position: absolute;
+    top:0;
+    left: 0;
+    margin-left: -50px;
+    margin-top: 100px;
+}
+
 .half-cut-title{
     display: flex;
     flex-direction: column;
@@ -600,12 +612,6 @@ line-height: 0.5;
     color: var(--site-red);
 }
 
-.webdesign-rotate-title{
-    font-size: 6rem;
-    transform: rotate(-90deg);
-    margin-left: -650px;
-    overflow: visible;
-}
 /* IU Expertise */
 .ui-xpertise{
     margin-bottom: 200px;
