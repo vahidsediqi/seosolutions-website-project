@@ -3,6 +3,7 @@
 =============================================*/
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 /*=============================================
 =            Colors and Fonts             =
@@ -26,14 +27,20 @@
       margin: 0;
       box-sizing: border-box;
   }
+.section-title-black{
+    font-size: 8rem;
+}
+  h1{
+    font-family: var(--teko-font);
+    font-size: 3.5rem;
+    font-weight: 600 !important;
+}
 
-  h1, h2{
+h2{
     font-family: var(--teko-font);
     font-size: 2.5rem;
     font-weight: 600 !important;
 }
-
-
 a{
     color: var(--site-black);
 }
@@ -70,16 +77,7 @@ p{
 =             NAVIGATION             =
 =============================================*/
 
-#navigation{
-    width: 80%;
-    margin-left: 110px;
-}
-  .section-title-black{
-    font-size: 9rem;
-    font-weight: 700;
-    color: var(--site-black);
-    line-height: 0.9;
-}
+
 
 .red-title{
     /* transform: rotate(-90deg); */
@@ -139,6 +137,35 @@ p{
     max-width: 970px;
     margin-right: 55px;
 }
+
+
+.homepage-banner-content-wrapper{
+    position: relative;
+    padding-left: 110px;
+    margin-left: 5px;
+    margin-top: 50px;
+}
+.homepage-rotate-title{
+    font-size: 7rem;
+    transform: rotate(270deg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 180px;
+    margin-left: -170px;
+}
+
+.home-page-half-cut-title{
+    display: flex;
+    flex-direction: column;
+    font-size: 13rem;
+    line-height: 0.8;
+    color: var(--site-red);
+}
+.web-design-banner-img-wrapper{
+    padding: 25px;
+}
+
 /* BANNER section LET'S TALK BUTTON */
 .talk-btn{
     font-family: var(--teko-font);
@@ -239,6 +266,13 @@ p{
     align-items: center;
 }
 
+.logo-half-cut-title{
+    display: flex;
+    flex-direction: column;
+    font-size: 9rem;
+    line-height: 0.8;
+    color: var(--site-red);
+}
 
 .logo-design-content-wrapper{
   max-width: 500px;
@@ -355,6 +389,8 @@ input::-webkit-input-placeholder {
     font-weight: 800;
     color: var(--site-red);
     line-height: 0.7;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -425,6 +461,7 @@ input::-webkit-input-placeholder {
 
 .blog-wrapper{
  width: 90%;
+ text-align: center;
 }
 
 .blog-section-title{
@@ -436,18 +473,17 @@ font-size: 8rem;
 font-weight: 800;
 color: var(--site-red);
 line-height: 0.5;
-
 }
 .blog-subtitle{
   font-size: 60px;
 }
 .blog-card-wrapper{
-    padding-bottom: 80px;
-    max-width: 90%;
+  padding-bottom: 80px;
+   width: 100%;
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
-   grid-gap: 50px;
-   float: right;
+   grid-gap: 51px;
+   text-align: center;
 }
 
 .more-blog{
@@ -477,9 +513,16 @@ line-height: 0.5;
  margin-bottom: 20px;
  padding-left: 15px;
 }
-  /*=============================================
-=             SEO PAGE          =
-=============================================*/
+
+
+ /* ========================
+      END OF HOME PAGE STYLE
+    ======================== 
+ */
+
+  /*================
+      SEO PAGE        
+===================*/
 
 .seo-banner-content-wrapper{
     margin-left: 60px;
@@ -526,6 +569,7 @@ line-height: 0.5;
     font-weight: 600;
 }
 
+/* CTA SECTOIN */
 .cta-section{
     padding-top: 90px;
 }
@@ -569,7 +613,7 @@ line-height: 0.5;
  right: 0;
  top: 0;
  margin-right: 100px;
- font-family: var(--segoe-font);
+ font-family: 'Great Vibes', cursive;
  font-size: 90px;
  transform: rotate(-30deg);
 }
@@ -580,11 +624,15 @@ line-height: 0.5;
     margin: 0 auto;
 }
 
-
 .seo-tools-wrapper{
-    padding-top: 80px;
-}
+    display: grid;
+    grid-template-columns: 50%;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 80px;
 
+}
   /*=============================================
 =             WEB DESIGN PAGE STYLES          =
 =============================================*/
@@ -619,10 +667,6 @@ line-height: 0.5;
     max-width: 700px;
 }
 
-.push-btn-left{
-    /* margin-left: -80px; */
-}
-
 .half-cut-title{
     display: flex;
     flex-direction: column;
@@ -650,7 +694,7 @@ line-height: 0.5;
     align-items: center; 
     border: 1px black solid;
     display: flex;
-    height: 300px;
+    height: 250px;
     position: relative;
 }
 .landscape-card-overlay{
@@ -669,6 +713,9 @@ line-height: 0.5;
     padding-right: 25px;
 }
 
+.landscape-card >h2{
+    font-size: 2em;
+}
 .landscape-card:hover .landscape-card-overlay{
   display: flex;
 }
@@ -715,7 +762,6 @@ line-height: 0.5;
     color: var(--white-color);
 }
 
-
 /* WEB DESIGN BUILDER TOOLS */
 
 .sub-upper-title-wrapper{
@@ -746,7 +792,6 @@ line-height: 0.5;
     line-height: 0.8;
   }
 
-
   /* Development Expertise*/
   .responsive-layout{
     background-image: url('../images/responsive-layout.png');
@@ -755,7 +800,6 @@ line-height: 0.5;
     color: var(--white-color);
 }
 
-  
   .component-based{
     background-image: url('../images/Component-based.png');
     background-size: cover;
@@ -786,22 +830,59 @@ line-height: 0.5;
     background-repeat: no-repeat;
     color: var(--white-color);
   }
-      
+   
+  
+/* ============================
+    APP DEVELOPEMT PAGE
+================================*/
+.app-cards{
+    background-image: url('../images/app\ design\ card\ bg.jpg');
+}
+
+.app-cards > h2 {
+    color: #fff;
+}
 
 
+/* ============
+LOGO DESIGN PAGE
+================ */
+
+.logo-design-banner{
+    max-width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+   margin: auto;
+}
 
 
+.logo-banner-content-wrapper{
+    position: relative;
+    padding-left: 110px;
+    margin-left: -100px;
+}
+.logo-rotate-title{
+    font-size: 7rem;
+    transform: rotate(270deg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: -170px;
+    margin-top: 120px;
+}
 /* FOOTER SECTION */
    .footer-section-wrapper{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
     background-image: url('../images/footer-bg.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
-    display: flex;
-    justify-content: space-around;
     padding-top: 8%;
-    padding-right: 200px;
 }
 
 .footer-section-wrapper ul  li{

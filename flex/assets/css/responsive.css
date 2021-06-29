@@ -1,6 +1,7 @@
 /* MANIPULATING BOOTSTRAP GRID */
 
-@media only screen and (min-width: 1700PX){
+@media only screen and (min-width: 550PX){
+
   .container{
       max-width: 75%;
       margin: 0 auto;
@@ -9,6 +10,10 @@
 
  /* (SMALL SCREEN SIZE) MOBILE SCREEN < 420PX */
 @media only screen and (max-width: 460PX) {
+    .red-title{
+        font-size: 4rem;
+    }
+
   .side-bar{
       display: none;
   }
@@ -30,7 +35,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    flex-direction: column-reverse;
+    flex-direction: column;
     width: 100%;
     margin: auto;
     padding: 25px;
@@ -42,6 +47,28 @@
     padding: 15px;
 }
  
+
+.homepage-banner-content-wrapper{
+    text-align: center;
+    position: relative;
+    padding: 15px;
+    margin: auto;
+    margin-top: 0px;
+}
+.homepage-rotate-title{
+    font-size: 4rem;
+    transform: rotate(0deg);
+    position: relative;
+    margin-top:auto;
+    margin-left: auto;
+}
+
+.home-page-half-cut-title{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    font-size: 8rem;
+}
 /* why us */
 .why-us-section{
     background: var(--site-red);
@@ -90,6 +117,9 @@
 .SEO-content-wrapper{
     width: 100%;
     padding: 25px;   
+}
+.SEO-content-wrapper > h2{
+    font-size: 2em;
 }
 
 .SEO-image-wrapper{
@@ -180,12 +210,12 @@
     margin-top: 75px;
     flex-direction: column;
     max-width: 100%;
-    padding: 25px;
+    padding: 5px;
 }
 
 .contact-section-content{
     width: 100%;
-    padding: 25px;
+    padding: 5px;
 }
 
 .contact-section-content-wrapper{
@@ -201,7 +231,8 @@
 }
 
 .contact-title{
-    font-size: 9rem;
+    font-size: 4rem;
+    flex-direction: row;
 }
 
 
@@ -211,25 +242,275 @@
  line-height: 1;
 }
 
+/* show case section */
+
+.showcase-wrapper{
+    height: auto;
+    padding: 12px;
+  }
+.showcase-title{
+    color: #000;
+    font-size: 45px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.showcase-sub-title{
+    color: #000;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+/* Home page services */
+.services-wrapper{
+    flex-direction: column;
+    justify-items: center;
+   }
+   
+   .service-title-wrapper{
+       text-align: center;
+   }
+   .service-title{
+    font-family: var(--teko-font);
+    color: #fff;
+    font-size: 45px;
+   }
+    
+   .service-list{
+    list-style: none;
+   }
+      
+   .service-link-item{
+       color: #fff ;
+       font-family: var(--teko-font);
+       font-size: 35px;
+   }
+   
+   /* BLOG WRAPPER */
+
+.blog-wrapper{
+    width: 90%;
+   }
+   
+   .blog-section-title{
+    padding-top: 80px;
+   }
+   
+   .blog-title{
+   font-size: 4rem;
+   }
+
+   .blog-subtitle{
+     font-size: 45px;
+   }
+   .blog-card-wrapper{
+      grid-template-columns: 1fr;
+      padding-left: 25px
+   }
+   
+   
+   .more-blog h1{
+       font-size: 3rem;
+   }
+ /* ========================
+      END OF HOME PAGE STYLE
+    ======================== 
+ */
+
+ /* ============
+LOGO DESIGN PAGE
+================ */
+
+.logo-design-banner{
+    max-width: 70%;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+   margin: auto;
+}
+
+.logo-half-cut-title{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 5rem;
+    line-height: 0.8;
+    color: var(--site-red);
+    padding-left: auto;
+}
+
+.logo-banner-content-wrapper{
+    text-align: center;
+    padding: 25px;
+    position: relative;
+    padding-left: 110px;
+    margin-left: -100px;
+}
+.logo-rotate-title{
+    font-size: 7rem;
+    transform: rotate(270deg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: -170px;
+    margin-top: 120px;
+}
+ /* ========================
+      WEB DESIGN PAGE STYLE
+    ======================== 
+ */
+
+.web-design-banner{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    }
+
+
+.webdesign-banner-content-wrapper{
+    position: relative;
+    padding-left: 110px;
+    margin-left: 5px;
+    margin-top: 50px;
+}
+.webdesign-rotate-title{
+    font-size: 7rem;
+    transform: rotate(270deg);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: -170px;
+    margin-bottom: 150px;
+}
+
+
+.web-design-banner-img-wrapper{
+    padding: 25px;
+}
+
+/* UI SECTION */
+
+.ui-xpertise> .row >h1 {
+    margin: auto;
+}
+.landscape-card-wprapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(90%, 1fr));
+}
+.landscape-card > h2 {
+    font-size: 2rem;
+}
+.ui-xpertise{
+    margin-bottom: 20px;
+}
+/* CTA SECTOIN */
+
+.cta-content-wrapper{
+    margin: 45px auto;
+}
+
+.cta-input {
+    width: auto;  
+}
+
+.cta-overlay-text{
+display: none;
+
+}
+
+/* WEB DESIGN BUILDER TOOLS */
+
+.sub-upper-title-wrapper{
+    padding-top: 60px;
+    text-align: center;
+}
+
+
+.sub-upper-title-wrapper > h1:nth-of-type(1){
+  font-size: 145px;
+}
+
+/* ===============================================
+                SEO PAGE DESIGN
+=============================================== */
+
+.seo-banner-content-wrapper{
+    margin: 56px auto;
+    padding: 25px;
+}
+
+.seo-banner-content-wrapper > h1{
+    font-size: 65px;
+}
+
+.seo-banner-image-wrapper{
+    padding: 25px;
+}
+
+
+.upto{
+    max-width: 80px;
+}
+
+
+.seo-tools-wrapper{
+    margin-top: 20px;
+    grid-template-columns: 1fr;
+    padding: 20px
+}
+.seo-tools-wrapper img{
+    margin-right: 30px;
+}
 
 
 /* FOOTER SECTION */
 
+/* FOOTER SECTION */
 .footer-section-wrapper{
-    height: auto;
+    display: flex;
     flex-direction: column-reverse;
-    padding-top: 8%;
+    padding-left: 50px;
+    padding-bottom: 25px;
+}
+   
+
+.footer-section-wrapper ul  li{
+   list-style: none; 
 }
 
+.footer-section-wrapper ul  li a{
+  color: #fff;
+  font-family: var(--teko-font);
+ }
+
+ .footer-section-wrapper h2{
+    font-weight: 600;
+   }
+
+.footer-section-wrapper{
+    color: #fff;
+}
+
+.footer-inner img{
+    width: 120px;
+}
+.footer-inner p{
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5em;
+  font-family: var(--teko-font);
+}
+
+.footer-inner p a{
+    color: #fff;
+}
 
   }
-
 
 
   /* (MEDIUM SCREEN) TABLET SCREEN  421PX - 1200PX */
-  @media only screen and (min-width: 421PX){
-   
-  }
+
 
   /* (LARGE SCREEN) 1201PX - 1800PX*/
 
