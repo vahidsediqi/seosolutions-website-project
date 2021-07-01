@@ -18,6 +18,9 @@
       display: none;
   }
 
+  .mobile-sectio-title{
+      font-size: 4rem;
+  }
   .main-wrapper{
    display: block
   }
@@ -42,7 +45,7 @@
 }
 
 .slider-wrapper{
-    margin-top: 54px;
+    /* margin-top: 54px; */
     width: 100%;
     padding: 15px;
 }
@@ -308,6 +311,9 @@
       padding-left: 25px
    }
    
+   .blog-card div{
+     height: auto;
+   }
    
    .more-blog h1{
        font-size: 3rem;

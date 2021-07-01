@@ -12,14 +12,38 @@
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="./assets/css/hover.css">
+    <link rel="stylesheet" href="./assets/css/nav.css">
 
 </head>
 <body>
     <!-- header -->
-  <section class="container">
- 
-  </section>
-
+    <header class="nav-wrapper">
+        <div class=" container">
+            <div class="nav">
+                <input type="checkbox" id="nav-check">
+                <div class="nav-header">
+                  <div class="nav-title">
+                    <img src="./assets/images/site-logo.png" alt="">
+                  </div>
+                </div>
+                <div class="nav-btn">
+                  <label for="nav-check">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </label>
+                </div> 
+                <div class="ml-auto nav-links">
+                  <a href="./index.html">Home</a>
+                  <a href="#">About</a>
+                  <a href="./app.html">App Design</a>
+                  <a href="./web-design.html">Web Design</a>
+                  <a href="./seo.html">SEO</a>
+                  
+                </div>
+              </div> 
+            </div>
+    </header>
     <div class="main-wrapper">
         <div class="side-bar">
             <!-- sidebar goes here -->
@@ -32,8 +56,7 @@
              </div>
         </div>
         <!-- side bar ends -->
-
- <div class="website-content">       
+ <div class="website-content">  
             <div class="banner-wrapper">
                     <div class="slider-wrapper">
                         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -81,7 +104,7 @@
                <div class="why-us-content-wrapper">
                     <h1 class="text-light">Why Us?</h1>
                     <p>
-                    because, we have been <strong style="text-decoration: underline;">creating</strong> <br>
+                    because, we have been <span style="text-decoration: underline; color: black" class="typed" data-typed-items="Creating, Designing, Developing, Marketing"></span> <br>
                     for Vienna since 2010.
                     </p>
                </div>
@@ -93,7 +116,7 @@
                     <img class="img-fluid"  src="./assets/images/web design.png" alt="web design">
                 </div>
                 <div class="web-design-content-wrapper">
-                     <h1 class="section-title-black line-height">WEB <br> DESIGN</h1> 
+                     <h1 class="section-title-black line-height mobile-sectio-title">WEB <br> DESIGN</h1> 
                      <h2>Ihre Onlinepräsenz ist das A und O</h2>
                      <p>
                         Das perfekte Gleichgewicht von Kreativität und Simplizität – professionelle 
@@ -115,7 +138,7 @@
              <section class="SEO-section" style="margin-top: 95px;">
                   <!-- SEO CONTENT -->
                 <div class="SEO-content-wrapper">
-                    <h1 class="section-title-black"> SEO</h1>  
+                    <h1 class="section-title-black mobile-sectio-title"> SEO</h1>  
                     <h2>Maximieren Sie Ihren Traffic durch die Suchmaschinenoptimierung SEO </h2>
                     <p class="section-p">
                         Die Macht der Suchmaschinenoptimierung bringt Ihnen mehr Traffic, mehr Kunden und mehr Umsatz! Verbessern Sie das Ranking Ihrer Webseite in den Suchmaschinen und steigern Sie den Erfolg Ihres Unternehmens. Unsere SEO-Strategien liefern JEDES Mal Ergebnisse! Wir bieten Ihnen erstklassige SEO in ganz Österreich an. Bei dem kostenlosen Beratungstermin besprechen wir Ihre genauen Bedürfnisse und bieten Ihnen optimale Lösungen an. 
@@ -370,6 +393,7 @@
                <a href="">+43 122 66299</a>
             </p>
         </div>
+ 
         <!-- FOLLOW US -->
         <div class="footer-inner">
             <h2>Follow Us</h2>
@@ -402,9 +426,12 @@
         </div>     
     </section>
 <!-- BOOTSTRAP SCRIPTS -->
-<script src="./assets/js/main.js"></script>
+<script src="./assets/js/typed.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="./assets/js/main.js"></script>
+
 </body>
+
 </html>

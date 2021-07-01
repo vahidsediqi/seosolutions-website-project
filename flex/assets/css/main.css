@@ -61,7 +61,7 @@ p{
 .main-wrapper{
     display: grid;
     grid-template-columns: 8% 92%;
-    background-color: #EDF0F2;
+    /* background-color: #EDF0F2; */
 }
 
 .side-2{
@@ -224,7 +224,7 @@ p{
     width: 90%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-end;
 }
 
 .SEO-content-wrapper{
@@ -232,7 +232,7 @@ p{
 }
 
 .SEO-image-wrapper{
-    width: 55%;     
+    width: 45%;     
 }
 /* APP DESIGN SECTION */
 
@@ -245,7 +245,7 @@ p{
 }
 
 .app-design-image-wrapper{
-    margin-right: 55px;
+    margin-right: 45px;
 }
 
 .app-design-content-wrapper{
@@ -293,9 +293,8 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 90px;
     background-color: #fff;
-    height: 700px;
+    height: 600px;
     background-image: url('../images/bg.png');
     background-repeat: no-repeat;
     background-position:left bottom;
@@ -509,9 +508,10 @@ line-height: 0.5;
  bottom: 0;
  left: 0;
  width: 100%;
- height: 20%;
+ height: auto;
  margin-bottom: 20px;
  padding-left: 15px;
+ text-align: left;
 }
 
 
