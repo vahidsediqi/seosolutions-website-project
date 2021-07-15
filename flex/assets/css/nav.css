@@ -1,4 +1,6 @@
 
+ @import url('http://fonts.cdnfonts.com/css/segoe-ui-4');
+
  .nav-wrapper{
    /* background-color: #EEF0F2 !important; */
   z-index: 999 !important;
@@ -37,7 +39,7 @@
     padding: 13px 10px 13px 10px;
     text-decoration: none;
     color: #000;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-family: 'Segoe UI', sans-serif;
     padding-right: 75px;
   }
   
@@ -49,7 +51,7 @@
     display: none;
   }
   
-  @media (max-width:600px) {
+  @media (max-width:1345px) {
     .nav > .nav-btn {
       display: inline-block;
       position: absolute;

@@ -1,15 +1,12 @@
-/* MANIPULATING BOOTSTRAP GRID */
 
-@media only screen and (min-width: 550PX){
-
-  .container{
-      max-width: 75%;
-      margin: 0 auto;
-  }
-}
 
  /* (SMALL SCREEN SIZE) MOBILE SCREEN < 420PX */
-@media only screen and (max-width: 460PX) {
+@media only screen and (max-width: 600PX) {
+    .container{
+        max-width: 75%;
+        margin: 0 auto;
+    }
+
     .red-title{
         font-size: 4rem;
     }
@@ -80,7 +77,9 @@
     height: auto;
 }
 .why-us-section .why-us-content-wrapper p {
-    font-size: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
     font-weight: 700;
 }
 
@@ -248,18 +247,18 @@
 /* show case section */
 
 .showcase-wrapper{
-    height: auto;
+    height: 600px;
     padding: 12px;
   }
 .showcase-title{
-    color: #000;
+    color: #fff;
     font-size: 45px;
     font-weight: 700;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .showcase-sub-title{
-    color: #000;
+    color: #fff;
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
@@ -268,6 +267,8 @@
 .services-wrapper{
     flex-direction: column;
     justify-items: center;
+    height: auto;
+    padding: 30px;
    }
    
    .service-title-wrapper{
@@ -520,6 +521,3 @@ display: none;
 
   /* (LARGE SCREEN) 1201PX - 1800PX*/
 
-  @media only screen and (max-width: 1201PX){
-       
-}
