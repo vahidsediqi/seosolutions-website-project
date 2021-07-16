@@ -937,16 +937,17 @@ margin-bottom: 55px;
 
 /* THE SMALL RED BOXES WITH NUMBERS */
 .meddle-number-boxes{
+color: white;
+background-color: red;
+font-family: var(--teko-font);
  width: 50px;
  height: 50px;
  z-index: 9;
- background-color: red;
  display: grid;
  justify-content: center;
  align-content: center;
- color: white;
- font-size: 20px;
- font-weight: bold;
+ font-size: 30px;
+ font-weight: 800;
  }
 
 /* THE RIGHT BLACK BOX */
@@ -984,7 +985,8 @@ position: relative;
 height: 800px;
 display: grid;
 grid-template-columns: 1fr 1fr;
-padding-top: 150px;
+align-content: center;
+justify-content: center;
 }
 .choose-us-title{
 position: absolute;
@@ -999,7 +1001,8 @@ margin-top: 222px;
 
 /* collapse wrapper */
 .collapse-wrapper{
- padding-left: 400px;      
+ padding-left: 300px;  
+ padding-bottom: 120px;    
 }
 
 .card-header{
@@ -1030,7 +1033,6 @@ color: black;
 
 .guaranti-content-wrapper{
 padding-left: 140px;
-padding-top: 100px;
 }
 .guaranti-content-wrapper > div > p:nth-of-type(1){
 font-family: 'teko', Tahoma, Geneva, Verdana, sans-serif;
