@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Sie sind auf der Suche nach einer SEO-Agentur Wien, um Ihre Google Präsenz zu stärken? Mit uns haben Sie einen starken Suchmaschinenoptimierung Partner.">
     <title>SEO solutions | SEO Agentur Wien- Werden Sie in Google die Nr. 1 mit dem SEO Solutions Team.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <title>Document</title>
     <!-- BOOTSTRAP 4 CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- LOCAL STYLES -->
@@ -17,56 +18,49 @@
 </head>
 <body>
         <!-- header -->
-        <header class="nav-wrapper">
-            <div class=" container">
-                <div class="nav">
-                    <input type="checkbox" id="nav-check">
-                    <div class="nav-header">
-                      <div class="nav-title">
-                        <img src="./assets/images/site-logo.png" alt="">
-                      </div>
-                    </div>
-                    <div class="nav-btn">
-                      <label for="nav-check">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                      </label>
-                    </div> 
-                    <div class="ml-auto nav-links">
-                      <a href="./index.html">Home</a>
-                      <a href="#">About</a>
-                      <a href="./app.html">App Design</a>
-                      <a href="./web-design.html">Web Design</a>
-                      <a href="./seo.html">SEO</a>
-                      
-                    </div>
-                  </div> 
+    <header class="header">
+        <nav class="navbar navbar-expand-lg fixed-top py-3">
+            <div class="container navwrapper">
+            <a href="#" class="navbar-brand text-uppercase font-weight-bold">
+                <img src="./assets/images/site-logo.png" alt="">
+            </a>
+                <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
+                
+                <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active"><a href="#" class="nav-link text-uppercase font-weight-bold">Home <span class="sr-only">(current)</span></a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">About</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Gallery</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Portfolio</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Contact</a></li>
+                    </ul>
                 </div>
-        </header>
+            </div>
+        </nav>
+    </header>
    <!-- BANNER SECTION -->
    <section class="web-design-banner">
-           <div class="web-design-banner-img-wrapper">
-              <img class="img-fluid" src="./assets/images/webdesign-banner.png" alt="web design">
-           </div>
-           <!-- image ends -->
-           <div class="">
-              <div class="webdesign-banner-content-wrapper">
-                  <div class="webdesign-title-wrapper">
-                    <h1 class="webdesign-rotate-title">TOP NOTCH</h1>
-                    <h1 class="half-cut-title">
-                        <span>DE</span>
-                        <span>SI</span>
-                        <span>GN</span>
-                    </h1>
-                    <button class="talk-btn push-btn-left">Let's Talk</button>
-                  </div>
-              </div>
-           </div>
+        <div class="row">
+            <div class="web-design-banner-img-wrapper col-xl-8">
+                <img class="img-fluid" src="./assets/images/webdesign-banner.png" alt="web design">
+             </div>
+             <!-- image ends -->
+                <div class="webdesign-banner-content-wrapper col-xl-4 ml-auto">
+                    <div class="webdesign-title-wrapper">
+                      <h1 class="webdesign-rotate-title">TOP NOTCH</h1>
+                      <h1 class="half-cut-title">
+                          <span>DE</span>
+                          <span>SI</span>
+                          <span>GN</span>
+                      </h1>
+                      <button class="talk-btn push-btn-left">Let's Talk</button>
+                    </div>
+                </div>
+        </div>   
    </section>
 
 <!-- UI -->
-<section class="container mt-5 ui-xpertise">
+<section class="webdesign-card-wrapper mt-5 ui-xpertise">
     <div class="row"><h1>UI Expertise</h1></div>
     <div class="landscape-card-wprapper">
         <div class="landscape-card Information-architecture ">
@@ -432,9 +426,11 @@
     </div>     
 </section>
 
+
 <!-- BOOTSTRAP SCRIPTS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="./assets/js/main.js"></script>
 </body>
 </html>

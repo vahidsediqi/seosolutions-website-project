@@ -14,36 +14,31 @@
     <link rel="stylesheet" href="./assets/css/hover.css">
     <link rel="stylesheet" href="./assets/css/nav.css">
     <link href="http://fonts.cdnfonts.com/css/segoe-ui-4" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <title>Document</title>
+
 
 </head>
 <body>
     <!-- header -->
-    <header class="nav-wrapper">
-        <div class=" container">
-            <div class="nav">
-                <input type="checkbox" id="nav-check">
-                <div class="nav-header">
-                  <div class="nav-title">
-                    <img src="./assets/images/site-logo.png" alt="">
-                  </div>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg fixed-top py-3">
+            <div class="container navwrapper">
+            <a href="#" class="navbar-brand text-uppercase font-weight-bold">
+                <img src="./assets/images/site-logo.png" alt="">
+            </a>
+                <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
+                
+                <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active"><a href="#" class="nav-link text-uppercase font-weight-bold">Home <span class="sr-only">(current)</span></a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">About</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Gallery</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Portfolio</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Contact</a></li>
+                    </ul>
                 </div>
-                <div class="nav-btn">
-                  <label for="nav-check">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                  </label>
-                </div> 
-                <div class="ml-auto nav-links">
-                  <a href="./index.html">Home</a>
-                  <a href="#">About</a>
-                  <a href="./app.html">App Design</a>
-                  <a href="./web-design.html">Web Design</a>
-                  <a href="./seo.html">SEO</a>
-                  
-                </div>
-              </div> 
             </div>
+        </nav>
     </header>
     <div class="main-wrapper">
         <div class="side-bar">
@@ -111,6 +106,7 @@
                     <span>
                         <span style="text-decoration: underline; color: black" class="typed" data-typed-items="Creating, Designing, Developing, Marketing"></span>
                     </span>
+                    <br>
                       <span>
                           for Vienna since 2010.
                         </span>
