@@ -229,7 +229,12 @@ p{
     width: 35%;   
 }
 
-
+.web-design-content-wrapper > h1 {
+    font-size: 8rem;
+    display: flex;
+    flex-direction: column;
+    line-height: 0.8;
+}
 
 /* SEO SECTION */
 
@@ -245,6 +250,9 @@ p{
     width: 45%;   
 }
 
+.SEO-content-wrapper > h1 {
+    font-size: 8rem;
+}
 .SEO-image-wrapper{
     width: 45%;     
 }

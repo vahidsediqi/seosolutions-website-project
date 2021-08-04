@@ -19,9 +19,6 @@
       display: none;
   }
 
-  .mobile-sectio-title{
-      font-size: 4rem;
-  }
   .main-wrapper{
    display: block
   }
@@ -139,6 +136,13 @@
     margin-top: 45px;  
     text-align: center;
 }
+.web-design-content-wrapper > h1 {
+    font-size: 6rem;
+    display: flex;
+    flex-direction: row;
+    line-height: 0.8;
+    justify-content: center;
+}
 
 .web-design-content-wrapper > h1 {
   font-size:4;
@@ -217,6 +221,7 @@
 .logo-design-content-wrapper{
   max-width: 100%;
   padding: 25px;
+  text-align: center;
 }
 .logo-design-image-wrapper{
   margin: auto;
