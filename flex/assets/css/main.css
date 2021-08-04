@@ -539,9 +539,11 @@ line-height: 0.5;
 ===================*/
 .seo-banner{
     max-width: 85%;
-    margin-top: 125px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 125px auto auto auto;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-gap: 95px;
+    align-items: center;
 }
 .seo-banner-content-wrapper{
     margin-left: 60px;
@@ -604,7 +606,6 @@ line-height: 0.5;
     max-width: 85%;
     margin: auto;
 }
-
 
 .cta-input {
     margin-bottom: 45px;
@@ -670,6 +671,8 @@ line-height: 0.5;
 .web-design-banner{
     max-width: 85%;
     margin: 120px auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
 }
 
 
@@ -709,9 +712,7 @@ line-height: 0.5;
     margin-bottom: 100px;
 }
 
-.ui-xpertise> .row >h1 {
-    margin-left: 50px;
-}
+
 .landscape-card-wprapper{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
@@ -817,8 +818,12 @@ line-height: 0.5;
   line-height: 0.8;
 }
 
-.sub-upper-title-wrapper > h1:nth-of-type(2){
+.sub-upper-title-wrapper > h4:nth-of-type(1){
+    font-family: var(--teko-font); 
+    font-size: 4rem;
+    max-width: 400px;
     line-height: 0.8;
+    font-weight: 600;
   }
 
   /* Development Expertise*/
@@ -867,6 +872,15 @@ line-height: 0.5;
 .app-dev-banner-wrapper{
     margin: 130px auto auto auto;
     max-width: 75%;
+    display: grid;
+    grid-template-columns:  1fr 1.5fr;
+    grid-gap: 95px;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+.app-dev-banner-title{
+    font-size: 7rem;
 }
 .app-cards{
     background-image: url('../images/app\ design\ card\ bg.jpg');
@@ -882,8 +896,11 @@ LOGO DESIGN PAGE
 ================ */
 
 .logo-design-banner{
-    max-width: 85%;
+    max-width: 80%;
     margin: auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding-left: 25px;
 }
 
 

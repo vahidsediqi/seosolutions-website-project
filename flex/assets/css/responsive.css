@@ -2,6 +2,10 @@
 
  /* (SMALL SCREEN SIZE) MOBILE SCREEN < 420PX */
 @media only screen and (max-width: 600PX) {
+    .process-wrapper,
+    .why-choose-us-wrapper{
+        display: none;
+    }
     .container{
         max-width: 75%;
         margin: 0 auto;
@@ -25,7 +29,7 @@
     max-width: 100%;
 }
   .section-title-black{
-    font-size: 4rem;
+    font-size:3rem;
     font-weight: 700;
     color: var(--site-black);
     transform-origin: 0 0;
@@ -34,6 +38,11 @@
     display: none;
 }
 
+/* cta-section */
+
+.cta-section{
+    padding-top: 20px;
+}
 /* mobile btn */
 
 .learn-more-btn-for-mob{
@@ -364,75 +373,145 @@
  */
 
  /* ============
-LOGO DESIGN PAGE
+PAGE LOGO DESIGN 
 ================ */
 
 .logo-design-banner{
-    max-width: 70%;
-    display: grid;
+    max-width: 100%;
     grid-template-columns: 1fr;
-    align-items: center;
-    justify-items: center;
-   margin: auto;
+    padding-left: 0;
+    margin-top: 45px;
+}
+
+
+.logo-banner-content-wrapper{
+    margin: auto;
+    text-align: center;
+    padding: 20px;
 }
 
 .logo-half-cut-title{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     font-size: 5rem;
-    line-height: 0.8;
-    color: var(--site-red);
-    padding-left: auto;
-}
-
-.logo-banner-content-wrapper{
-    text-align: center;
-    padding: 25px;
-    position: relative;
-    padding-left: 110px;
-    margin-left: -100px;
 }
 .logo-rotate-title{
-    font-size: 7rem;
-    transform: rotate(270deg);
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-left: -170px;
-    margin-top: 120px;
+    font-size: 4rem;
+    transform: rotate(0);
+    position: static;
+    margin-left: 0px;
+    margin-top: 0px;
 }
- /* ========================
-      WEB DESIGN PAGE STYLE
+
+/* card style */
+
+.webdesign-card-wrapper {
+
+    text-align: center;
+}
+
+.sub-upper-title-wrapper > p:nth-of-type(1){
+    font-family: var(--teko-font);
+    font-weight: bold;
+  }
+
+.sub-upper-title-wrapper > p:nth-of-type(2){
+  font-family: var(--teko-font);
+  font-size: 43px;
+  font-weight: 600;
+}
+
+.sub-upper-title-wrapper > h1:nth-of-type(1){
+  font-size: 280px;
+  color: var(--site-red);
+  font-family: var(--teko-font); 
+  line-height: 0.8;
+}
+
+.sub-upper-title-wrapper > h4:nth-of-type(1){
+    font-family: var(--teko-font); 
+    font-size: 2rem;
+    max-width: 400px;
+    line-height: 0.8;
+    font-weight: 600;
+  }
+
+  .ui-xpertise{
+      text-align: center;
+  }
+
+   /* ========================
+      PAGE APP DEVELOPMENT 
     ======================== 
  */
 
-.web-design-banner{
-    max-width: 100%;
-    display: grid;
+ .app-dev-banner-wrapper{
     grid-template-columns: 1fr;
-    }
+    grid-gap: 95px;
+    margin-bottom: 4px;
+    grid-template-areas:
+     'appdevimg'
+    'appdevcontent';
+}
+
+.app-dev-banner-image-wrapper{
+    grid-area: appdevimg;
+
+}
+
+.app-dev-banner-content-wrapper{
+    grid-area: appdevcontent;
+    padding-top: -200px;
+}
+
+.app-dev-banner-title{
+    font-size: 4rem;
+} {
+    font-size: 6rem;
+}
+ /* ========================
+      PAGE WEB DESIGN
+    ======================== 
+ */
+
+/* banner */
+
+.web-design-banner{
+    grid-template-columns:1fr;
+    grid-gap: 50px;
+}
 
 
 .webdesign-banner-content-wrapper{
+   padding: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.webdesign-banner-content-wrapper{
     position: relative;
-    padding-left: 110px;
-    margin-left: 5px;
-    margin-top: 50px;
+    padding-top: 0;
+    padding-left: 0;
 }
 .webdesign-rotate-title{
-    font-size: 7rem;
-    transform: rotate(270deg);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    margin-left: -170px;
-    margin-bottom: 150px;
+    font-size: 4rem;
+    transform: rotate(0);
+    position: static;
+    margin:auto;
 }
 
-
-.web-design-banner-img-wrapper{
-    padding: 25px;
+.half-cut-title{
+    display: flex;
+    flex-direction: row;
+    font-size: 7rem;
+}
+.webdesign-p{
+    max-width: 350px;
+    margin-left: 0px;
+    text-align: center;
 }
 
 /* UI SECTION */
@@ -454,12 +533,18 @@ LOGO DESIGN PAGE
 
 .cta-content-wrapper{
     margin: 45px auto;
+    text-align: center;
+    padding: auto;
 }
 
 .cta-input {
-    width: auto;  
+    width: 56%;  
 }
 
+.cta-form-button{
+    width: 35%;
+    font-size: 2rem;
+}
 .cta-overlay-text{
 display: none;
 
@@ -473,15 +558,22 @@ display: none;
 }
 
 
+
 .sub-upper-title-wrapper > h1:nth-of-type(1){
   font-size: 145px;
 }
 
 /* ===============================================
-                SEO PAGE DESIGN
+                PAGE SEO 
 =============================================== */
+.seo-banner{
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+
+}
 
 .seo-banner-content-wrapper{
+    text-align: center;
     margin: 56px auto;
     padding: 25px;
 }
