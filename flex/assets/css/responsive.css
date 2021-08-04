@@ -447,11 +447,10 @@ PAGE LOGO DESIGN
 
  .app-dev-banner-wrapper{
     grid-template-columns: 1fr;
-    grid-gap: 95px;
-    margin-bottom: 4px;
+    grid-gap: 2px;
     grid-template-areas:
-     'appdevimg'
-    'appdevcontent';
+     'appdevimg' 'appdevcontent';
+
 }
 
 .app-dev-banner-image-wrapper{
@@ -461,11 +460,10 @@ PAGE LOGO DESIGN
 
 .app-dev-banner-content-wrapper{
     grid-area: appdevcontent;
-    padding-top: -200px;
 }
 
 .app-dev-banner-title{
-    font-size: 4rem;
+    font-size: 6rem;
 } {
     font-size: 6rem;
 }
