@@ -144,13 +144,15 @@
 .SEO-content-wrapper{
     width: 100%;
     text-align: center; 
+    padding-top: 30px;
 }
 .SEO-content-wrapper > h2{
     font-size: 2em;
 }
 
 .SEO-content-wrapper > h1{
-    font-size: 5rem;
+    font-size: 6rem;
+    margin-bottom: 25px;
 }
 .SEO-image-wrapper{
     width: 100%;

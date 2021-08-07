@@ -268,10 +268,11 @@ p{
 .logo-design-content-wrapper{
   max-width: 500px;
 }
-.logo-design-image-wrapper{
-  margin-left: 70px;
+.logo-design-content-wrapper > h1 {
+    font-size: 5rem;
+    color: var(--site-red);
+    text-transform: uppercase;
 }
-
 .section-subtitle{
     font-weight: 800;
     font-size: 3rem;
