@@ -65,6 +65,18 @@ p{
 .section-p{
     max-width: 400px;
 }
+
+/* HOMEPAGE ALL SECTIONS PARENT OR WRAPPER */
+.homepage-section-wrapper-img-lg {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    max-width: 85%;
+    margin: 85px auto auto auto;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 5%;
+}
+
 .header-call{
     text-transform: uppercase;
     color: #fff;
@@ -142,24 +154,11 @@ p{
 }
 /* BANNER SENCTION */
 
-.banner-wrapper{
-    display: flex;
-    justify-content: right;
-    width: 90%;
-    margin-top: 50px;
-}
-
-
-.slider-wrapper{
-    margin-right: 55px;
-}
-
-.homepage-banner-content-wrapper{
+.homepage-banner-title-wrapper{
     position: relative;
-    padding-left: 110px;
-    margin-left: 5px;
-    margin-top: 50px;
+    padding-left: 150px;
 }
+
 .homepage-rotate-title{
     font-size: 7rem;
     transform: rotate(270deg);
@@ -210,24 +209,7 @@ p{
 }
 
 
-/* WEB DESIGN SECTION */
-
-.web-design-section{
-    margin-top: 80px;
-    width: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    
-}
-
-.web-design-image-wrapper{
-    width: 50%;   
-}
-
-.web-design-content-wrapper{
-    width: 35%;   
-}
+/* WEBDESIGN SECTION */
 
 .web-design-content-wrapper > h1 {
     font-size: 8rem;
@@ -239,52 +221,39 @@ p{
 /* SEO SECTION */
 
 .SEO-section{
-    margin-top: 80px;
-    width: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+    margin: 85px auto;
+   max-width: 85%;
+   display: grid;
+   grid-template-columns: 1fr 1.5fr;
+   grid-gap: 50px;
+   justify-content: center;
+   align-items: center;
+   padding: 50px auto;
 }
 
-.SEO-content-wrapper{
-    width: 45%;   
-}
 
 .SEO-content-wrapper > h1 {
     font-size: 8rem;
+    line-height: 0.5;
 }
-.SEO-image-wrapper{
-    width: 45%;     
+
+.SEO-content-wrapper > h2 {
+    font-size: 2rem;
+    line-height: 0.9;
 }
+
 /* APP DESIGN SECTION */
 
-
-.app-design-section{
-    margin-top: 80px;
-    display: flex;
-    width: 90%;
-    justify-content: right;
-}
-
-.app-design-image-wrapper{
-    margin-right: 45px;
-}
-
-.app-design-content-wrapper{
-    padding-top: 145px;
-    max-width: 450px;   
-    margin-left: 70px; 
-    position: relative;
-
-}
 
 /* LOGO DESIGN SECTION */
 
 .logo-design-wrapper{
-    margin-top: 175px;
-    display: flex;
-    max-width: 90%;
-    justify-content: space-around;
+    max-width: 85%;
+    margin:175px auto auto auto;
+    display: grid;
+    grid-template-columns: 40% 50%;
+    grid-gap: 95px;
+    justify-content: center;
     align-items: center;
 }
 
@@ -341,10 +310,12 @@ p{
 /* HOME PAGE CONTACT FORM */
 
 .contact-section-wrapper{
-    margin-top: 75px;
-    display: flex;
+    margin: 75px auto auto auto;
     max-width: 85%;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
 }
 
 
