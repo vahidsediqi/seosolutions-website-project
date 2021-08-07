@@ -308,18 +308,6 @@ p{
 
 
 /* HOME PAGE CONTACT FORM */
-
-.contact-section-wrapper{
-    margin: 75px auto auto auto;
-    max-width: 85%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
 .contact-section-content-wrapper{
  flex: 1;
  max-width: 550px;
