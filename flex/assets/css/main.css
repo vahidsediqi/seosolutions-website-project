@@ -72,7 +72,7 @@ p{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 55px;
-    align-items: center;
+    justify-items: center;
 }
 
 /* HOMEPAGE ALL SECTIONS PARENT OR WRAPPER */
