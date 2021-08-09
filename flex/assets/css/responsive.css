@@ -42,10 +42,21 @@
     text-align: center;
 
 }
+
+.subpage-section-wrapper-img-lg {
+    grid-template-columns:1fr;
+    max-width: 90%;
+    grid-gap:0;
+    text-align: center;
+
+}
 /* cta-section */
 
 .cta-section{
-    padding-top: 20px;
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
 }
 /* mobile btn */
 
@@ -200,6 +211,10 @@
   text-align: center;
   padding: 15px;
 }
+
+.logo-design-content-wrapper > h1 {
+    line-height: 0.8;
+}
 .logo-design-image-wrapper{
   margin: auto;
   padding: 25px;
@@ -220,7 +235,7 @@
  margin: auto;
  height: auto;
  padding-top: 45px;
- padding-bottom: 85px;
+ padding-bottom: 18px;
  background-image: none;
 }
 
@@ -340,38 +355,18 @@
 PAGE LOGO DESIGN 
 ================ */
 
-.logo-design-banner{
-    max-width: 100%;
-    grid-template-columns: 1fr;
-    padding-left: 0;
-    margin-top: 45px;
-}
-
-
-.logo-banner-content-wrapper{
-    margin: auto;
-    text-align: center;
-    padding: 20px;
-}
-
-.logo-half-cut-title{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+.logo-design-half-cut-title{
+    display: flex;
+    flex-direction: row;
     font-size: 5rem;
-}
-.logo-rotate-title{
-    font-size: 4rem;
-    transform: rotate(0);
-    position: static;
-    margin-left: 0px;
-    margin-top: 0px;
+    justify-content: center;
 }
 
 /* card style */
 
 .webdesign-card-wrapper {
-
     text-align: center;
+    margin-top: 45px;
 }
 
 .sub-upper-title-wrapper > p:nth-of-type(1){
@@ -514,6 +509,9 @@ display: none;
 
 /* WEB DESIGN BUILDER TOOLS */
 
+.tools-wrapper{
+   grid-template-columns: 1fr;
+}
 .sub-upper-title-wrapper{
     padding-top: 60px;
     text-align: center;
@@ -530,13 +528,12 @@ display: none;
 =============================================== */
 .seo-banner{
     grid-template-columns: 1fr;
-    grid-gap: 10px;
-
+    grid-gap: 1px;
 }
 
 .seo-banner-content-wrapper{
     text-align: center;
-    margin: 56px auto;
+    margin: 15px auto;
     padding: 25px;
 }
 
@@ -545,14 +542,18 @@ display: none;
 }
 
 .seo-banner-image-wrapper{
-    padding: 25px;
+    padding: 5px;
 }
 
 
-.upto{
-    max-width: 80px;
-}
+.upto > h2{
+    transform: rotate(0);
+ }
 
+ .upto{
+    position: static;
+    margin:auto;
+ }
 
 .seo-tools-wrapper{
     margin-top: 20px;

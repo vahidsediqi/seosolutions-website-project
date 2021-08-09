@@ -66,6 +66,15 @@ p{
     max-width: 400px;
 }
 
+.tools-wrapper{
+    max-width: 85%;
+    margin: 65px auto auto auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 55px;
+    align-items: center;
+}
+
 /* HOMEPAGE ALL SECTIONS PARENT OR WRAPPER */
 .homepage-section-wrapper-img-lg {
     display: grid;
@@ -75,6 +84,17 @@ p{
     justify-content: center;
     align-items: center;
     grid-gap: 5%;
+}
+
+
+.subpage-section-wrapper-img-lg {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    max-width: 75%;
+    margin: 85px auto auto auto;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 7%;
 }
 
 .header-call{
@@ -531,14 +551,17 @@ line-height: 0.5;
    transform: rotate(270deg);
    margin-top: 60px;
    text-decoration: underline;
-   text-decoration-color: var(--site-red)
+   text-decoration-color: var(--site-red);
 }
 
 .upto-parent{
  position: relative;
 }
 .promotion-section-wrapper{
-    padding-top: 80px;
+  max-width: 80%;
+  max-width: repeat(3, 1fr);    
+  margin: 95px auto;
+  padding: 55px auto;
 }
 
 .promotion-section-wrapper > .row > .col p {
@@ -570,9 +593,12 @@ line-height: 0.5;
 
 /* CTA SECTOIN */
 .cta-section{
-    padding-top: 90px;
-    max-width: 85%;
-    margin: auto;
+ max-width: 85%;
+ margin: 110px auto;
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ grid-gap: 55px;
+ align-items: center;
 }
 
 .cta-input {
@@ -636,45 +662,14 @@ line-height: 0.5;
 =             WEB DESIGN PAGE STYLES          =
 =============================================*/
 
-.web-design-banner{
-    max-width: 85%;
-    margin: 120px auto;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-}
 
 
-.webdesign-banner-content-wrapper{
-    position: relative;
-    padding-top: 150px;
-    padding-left: 55px;
-}
-.webdesign-rotate-title{
-    font-size: 8rem;
-    transform: rotate(270deg);
-    position: absolute;
-    left: 0;
-    margin-left: -250px;
-    margin-top: 105px;
-}
 
-.half-cut-title{
-    display: flex;
-    flex-direction: column;
-    font-size: 11rem;
-    line-height: 0.8;
-    color: var(--site-red);
-}
-
-.webdesign-p{
-    max-width: 350px;
-    margin-left: -100px;
-}
 /* IU Expertise */
 
 .webdesign-card-wrapper{
     max-width: 85%;
-    margin: auto;
+    margin: 55px auto;
 }
 .ui-xpertise{
     margin-bottom: 100px;
@@ -863,30 +858,13 @@ line-height: 0.5;
 LOGO DESIGN PAGE
 ================ */
 
-.logo-design-banner{
-    max-width: 80%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    padding-left: 25px;
+.logo-design-half-cut-title{
+    display: flex;
+    flex-direction: column;
+    font-size: 12rem;
+    line-height: 0.8;
+    color: var(--site-red);
 }
-
-
-.logo-banner-content-wrapper{
-    position: relative;
-    margin-top: 190px;
-    margin-left: 210px;
-}
-.logo-rotate-title{
-    font-size: 8rem;
-    transform: rotate(270deg);
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-left: -290px;
-    margin-top: 120px;
-}
-
 .idea-section{
     margin-top: 95px
 }
