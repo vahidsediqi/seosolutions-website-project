@@ -843,7 +843,10 @@ line-height: 0.5;
 }
 
 .app-dev-banner-title{
+    display: flex;
+    flex-direction: column;
     font-size: 7rem;
+    line-height: 0.8;
 }
 .app-cards{
     background-image: url('../images/app\ design\ card\ bg.jpg');
@@ -866,16 +869,13 @@ LOGO DESIGN PAGE
     color: var(--site-red);
 }
 .idea-section{
-    margin-top: 95px
-}
-.idea-section > .row >.col{
- text-align: center;
+    margin: 115px auto;
+    display: grid;
+    grid-template-columns: 50%;
+    justify-content: center;
+    text-align: center;
 }
 
-.idea-section > .row >.col >p {
-  max-width: 500px;
-  margin: auto;
-}
 /* PROCESS SECTION WRAPPER */
 .process-wrapper{
     background-color: #000;
@@ -1022,7 +1022,9 @@ color: black;
 
 }
 
-
+.why-choose-us-mob-title{
+    display: none;
+}
 .guaranti-content-wrapper{
 padding-left: 140px;
 }

@@ -2,10 +2,7 @@
 
  /* (SMALL SCREEN SIZE) MOBILE SCREEN < 420PX */
 @media only screen and (max-width: 600PX) {
-    .process-wrapper,
-    .why-choose-us-wrapper{
-        display: none;
-    }
+   
     .container{
         max-width: 75%;
         margin: 0 auto;
@@ -50,10 +47,67 @@
     text-align: center;
 
 }
+
+.process-wrapper
+{
+    display: none;
+}
+
+.choose-us-title{
+   display: none;
+    }
+
+.why-choose-us-wrapper{
+position: static;
+height: auto;
+display: grid;
+grid-template-columns: 1fr;
+align-content: center;
+justify-content: center;
+}
+
+/* collapse wrapper */
+.collapse-wrapper{
+    padding: 15px;  
+}
+
+.card-header button{
+    font-size: 2rem;
+    }
+    .why-choose-us-mob-title{
+        display: flex;
+        flex-direction: column;
+        text-transform: uppercase;
+        line-height: 0.7;
+    }
+    .why-choose-us-mob-title > span:nth-child(1){
+        color: #CA0000;
+        font-size: 6rem;
+    }
+.guaranti-content-wrapper{
+    padding-left: 140px;
+    display: none;
+    }
+    .guaranti-content-wrapper > div > p:nth-of-type(1){
+    font-family: 'teko', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    }
+    
+    
+    .guaranti-content-wrapper > div > p:nth-of-type(2){
+    font-size: 10rem;
+    }
+    
+    .guaranti-content-wrapper > div > p:nth-of-type(3){
+    font-size: 2rem;
+
+    }
+
 /* cta-section */
 
 .cta-section{
-    margin-top: 80px;
+    margin: 30px auto;
     width: 100%;
     display: flex;
     flex-direction: column-reverse;
@@ -173,20 +227,18 @@
 /* APP DESIGN SECTION */
 .app-design-image-wrapper{
     margin:auto;
-    padding: 25px;
+    padding: 10px;
 }
 
 .app-design-content-wrapper{
-    padding-top: 145px;
-    max-width: 450px; 
     margin: auto; 
-    padding: 25px;
-    text-align: center;
+    padding: 30px 10px;
 }
 
 .app-design-content-wrapper > h1{
     font-size: 6rem;
 }
+
 
 /* LOGO DESING */
 
@@ -409,7 +461,8 @@ PAGE LOGO DESIGN
     grid-gap: 2px;
     grid-template-areas:
      'appdevimg' 'appdevcontent';
-
+    justify-content: center;
+     margin: 70px auto auto auto;
 }
 
 .app-dev-banner-image-wrapper{
@@ -423,9 +476,17 @@ PAGE LOGO DESIGN
 
 .app-dev-banner-title{
     font-size: 6rem;
-} {
-    font-size: 6rem;
-}
+} 
+
+.idea-section{
+    margin: 0px auto;
+    grid-template-columns: 100%; 
+    padding: 10px;
+ }
+ 
+ .idea-section h1 {
+     font-size: 3rem;
+ }
  /* ========================
       PAGE WEB DESIGN
     ======================== 
@@ -437,7 +498,6 @@ PAGE LOGO DESIGN
     grid-template-columns:1fr;
     grid-gap: 50px;
 }
-
 
 .webdesign-banner-content-wrapper{
    padding: auto;
@@ -511,6 +571,7 @@ display: none;
 
 .tools-wrapper{
    grid-template-columns: 1fr;
+   justify-content: center;
 }
 .sub-upper-title-wrapper{
     padding-top: 60px;
@@ -556,15 +617,18 @@ display: none;
  }
 
 .seo-tools-wrapper{
-    margin-top: 20px;
+    margin-top: 0px;
     grid-template-columns: 1fr;
-    padding: 20px
+    padding: 10px;
+    justify-content: center;
 }
-.seo-tools-wrapper img{
-    margin-right: 30px;
+.seo-tools-wrapper{
+    margin: auto;
 }
 
-
+.seo-tools-wrapper > h2{
+    font-size: 2rem;
+}
 /* FOOTER SECTION */
 
 /* FOOTER SECTION */
