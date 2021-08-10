@@ -898,6 +898,14 @@ font-size: 10rem;
 margin-bottom: 350px;
 }
 
+/* ----------------
+MOBILE PROCESS
+---------------- */
+.mob-process-wrapper{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
 /* WHY TITLE  */
 
 .why-title{
