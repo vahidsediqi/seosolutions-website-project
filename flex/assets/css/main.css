@@ -897,6 +897,9 @@ margin-left: -80px;
 font-size: 10rem;
 margin-bottom: 350px;
 }
+.mob-process-wrapper{
+ display: none;
+}
 
 /* ----------------
 MOBILE PROCESS
