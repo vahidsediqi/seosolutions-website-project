@@ -633,6 +633,12 @@ display: none;
 .seo-tools-wrapper > h2{
     font-size: 2rem;
 }
+
+/* PAGE CONTACT US */
+
+.contact-page-wrapper{
+    grid-template-columns: 1fr;
+}
 /* FOOTER SECTION */
 
 /* FOOTER SECTION */

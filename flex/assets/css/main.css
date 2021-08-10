@@ -1060,6 +1060,20 @@ font-size: 3rem;
 font-weight: 700;
 line-height: 0.9;
 }
+
+/* PAGE CONTACT US */
+
+.contact-page-wrapper{
+max-width: 60%;
+margin: 220px auto;
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-gap: 50px;
+justify-content: center;
+align-items: center;
+}
+
+
 /* FOOTER SECTION */
    .footer-section-wrapper{
     display: grid;
