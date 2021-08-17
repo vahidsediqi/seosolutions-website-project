@@ -1,0 +1,175 @@
+
+    .side-bar{
+        display: none;
+    }
+    .main-wrapper{
+        grid-template-columns: 1fr;
+    }
+
+    .homepage-section-wrapper-img-lg {
+        grid-template-columns:1fr;
+        max-width: 90%;
+        grid-gap:0;
+        text-align: center;
+    
+    }
+    
+    .subpage-section-wrapper-img-lg {
+        grid-template-columns:1fr;
+        max-width: 90%;
+        grid-gap:0;
+        text-align: center;
+    }
+
+    .homepage-banner-title-wrapper{
+        padding: 5px;
+        text-align: center;
+      }
+      
+      .homepage-rotate-title{
+          font-size: 8rem;
+          transform: rotate(0deg);
+          position: relative;
+          margin-top:auto;
+          margin-left: auto;
+          
+      }
+      
+      .home-page-half-cut-title{
+          display: flex;
+          flex-direction: row;
+          font-size: 11rem;
+          justify-content: center;
+      }
+
+      .homepage-banner-content-wrapper p {
+        width: 100% ;
+        margin: 25px auto;
+      }
+
+      .why-us-content-wrapper p > span{
+        font-size: 3rem;
+      }
+      .why-us-content-wrapper p {
+        display: flex;
+        flex-direction: column;
+      }
+      .why-us-content-wrapper{
+       margin: auto;
+       padding: 45px;
+      }
+
+      .why-us-section{
+          height: auto;
+      }
+
+  /* home page web design */
+
+  .web-design-content-wrapper{
+    width: 90%; 
+    margin-top: 45px;  
+    text-align: center;
+    margin: auto;
+    padding-top: 25px;
+}
+.web-design-content-wrapper > h1 {
+    margin-top: 35px;
+    font-size: 6rem;
+    display: flex;
+    flex-direction: row;
+    line-height: 0.8;
+    justify-content: center;
+}
+
+.web-design-content-wrapper > h1 {
+  font-size:4;
+}
+
+/* SEO SECTION */
+
+.SEO-section{
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.SEO-content-wrapper{
+    width: 100%;
+    text-align: center; 
+    padding-top: 30px;
+}
+.SEO-content-wrapper > h2{
+    font-size: 2em;
+}
+
+.SEO-content-wrapper > h1{
+    font-size: 6rem;
+    margin-bottom: 15px;
+}
+.SEO-image-wrapper{
+    width: 100%;
+    padding: 5px;
+}
+
+.SEO-content-wrapper > p {
+    margin: 25px auto;
+    max-width: 95%;
+}
+   
+/* APP DESIGN SECTION */
+.app-design-image-wrapper{
+    margin:auto;
+    padding: 10px;
+}
+
+.app-design-content-wrapper{
+    margin: auto; 
+    padding: 30px 10px;
+}
+
+.app-design-content-wrapper > h1{
+    font-size: 7rem;
+}
+
+.app-design-content-wrapper >p{
+    max-width: 95%;
+}
+
+/* LOGO DESING */
+
+.logo-design-wrapper{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: 100%;
+    align-items: center;
+}
+
+.rotate-text{
+    /* transform: rotate(-90deg); */
+    font-size: 4rem;
+    font-weight: 600;
+    color: var(--site-red); 
+    text-transform: uppercase;
+}
+
+.logo-design-content-wrapper{
+  max-width: 100%;
+  text-align: center;
+  padding: 15px;
+}
+
+.logo-design-content-wrapper > h1 {
+    line-height: 0.8;
+}
+.logo-design-image-wrapper{
+  margin: auto;
+  padding: 25px;
+}
+
+.section-subtitle{
+    font-weight: 800;
+    font-size: 2rem;
+}
+  }

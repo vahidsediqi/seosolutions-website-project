@@ -1,7 +1,7 @@
 
 
  /* (SMALL SCREEN SIZE) MOBILE SCREEN < 420PX */
-@media only screen and (max-width: 600PX) {
+@media only screen and (max-width: 850PX) {
    
     .container{
         max-width: 75%;
@@ -683,8 +683,48 @@ display: none;
 
   }
 
+  @media (min-width: 601px) and (max-width: 900px) {
+
+    img {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .logo-design-image-wrapper, .SEO-image-wrapper{
+        text-align: center;
+    }
+
+    .contact-section-content-wrapper{
+        text-align: center;
+        margin: auto;
+    }
+
+    .next-icon{
+        width:auto;
+    }
+
+
+     /* BLOG WRAPPER */
+
+     .blog-card div{
+        text-align: center;
+       }
+   
+       .footer-section-wrapper{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-left: 50px;
+        padding-bottom: 25px;
+    }
+   
+   }
+
+  
 
   /* (MEDIUM SCREEN) TABLET SCREEN  421PX - 1200PX */
+
+  
 
 
   /* (LARGE SCREEN) 1201PX - 1800PX*/
