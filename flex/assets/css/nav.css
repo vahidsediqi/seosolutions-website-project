@@ -8,9 +8,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
 .navbar {
   transition: all 0.4s;
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+
 }
+
+/* Navigation slide down Animations */
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+
+
 .navbar .nav-link {
   color: black;
   padding-right: 25px !important;
@@ -118,3 +135,5 @@ a.navbar-brand > img{
 .hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
   right: 0;
 }
+
+

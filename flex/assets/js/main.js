@@ -1,7 +1,7 @@
 //  Side bar number changing on scroll
 
 // window.addEventListener('scroll', function() {
-//   document.querySelector('.active-number').innerHTML ++ ;
+//   document.querySelector('.active-number').innerHTML + 5 ;
 // });
 
 // $(function () {
@@ -17,6 +17,22 @@
 // });
  
  
+$(window).scroll(function(){ 
+  if ( $(window).scrollTop() > 800 &&  $(window).scrollTop() < 1100 ) {
+    $("#number").text('02');
+} else if ( $(window).scrollTop() < 10 ) {
+  $("#number").text('01');
+} else if ( $(window).scrollTop() > 1500 &&  $(window).scrollTop() < 1900 ) {
+  $("#number").text('03');
+}  else if ( $(window).scrollTop() > 1900 &&  $(window).scrollTop() < 2800 ) {
+  $("#number").text('04');
+} else if ( $(window).scrollTop() > 2800 &&  $(window).scrollTop() < 3400 ) {
+  $("#number").text('05'); } 
+  else if ( $(window).scrollTop() > 3700 &&  $(window).scrollTop() < 4700 ) {
+    $("#number").text('06'); } 
+
+})
+
  // Hero typed
  if ($('.typed').length) {
     var typed_strings = $(".typed").data('typed-items');
