@@ -95,11 +95,11 @@ p{
     justify-content: center;
     align-items: center;
     grid-gap: 7%;
-    animation: 1s ease-out 0s 1 SlideBanner;
+    animation: ease-in-out 1s SlideTheBanner;
 
 }
 
-@keyframes SlideBanner {
+@keyframes SlideTheBanner {
     0% {
       transform: translateX(-100%);
     }
@@ -185,7 +185,36 @@ p{
 
 }
 /* BANNER SENCTION */
+.slider-wrapper {
+    animation: ease-in-out 1s ImageSlid;
+}
 
+.homepage-banner-content-wrapper{
+    animation: ease-in-out 1s ContentSlide;
+}
+
+
+/* Home page banner slide animation */
+@keyframes ImageSlid {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+/*  */
+
+@keyframes ContentSlide {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  /*  */
 .homepage-banner-title-wrapper{
     position: relative;
     padding-left: 150px;
