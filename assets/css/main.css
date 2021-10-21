@@ -327,14 +327,15 @@ li {
 }
 
 
-.SEO-content-wrapper > h1 {
+.SEO-content-wrapper > h2 {
     font-size: 8rem;
     line-height: 0.5;
 }
 
-.SEO-content-wrapper > h2 {
+.SEO-content-wrapper > h3 {
     font-size: 2rem;
-    line-height: 0.9;
+    line-height: 1;
+    font-weight: 700;
 }
 
 /* APP DESIGN SECTION */
@@ -363,7 +364,7 @@ li {
 .logo-design-content-wrapper{
   max-width: 500px;
 }
-.logo-design-content-wrapper > h1 {
+.logo-design-content-wrapper > h2 {
     font-size: 5rem;
     color: var(--site-red);
     text-transform: uppercase;
