@@ -273,6 +273,10 @@ li {
     margin-left: 37px;
 }
 
+.img-opt {
+    max-width: 800px;
+    max-height: 800px;
+}
 
 /* BANNER section LET'S TALK BUTTON */
 .talk-btn{
