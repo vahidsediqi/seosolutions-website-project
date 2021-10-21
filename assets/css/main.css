@@ -306,7 +306,7 @@ li {
 
 /* WEBDESIGN SECTION */
 
-.web-design-content-wrapper > h1 {
+.web-design-content-wrapper > h2 {
     font-size: 8rem;
     display: flex;
     flex-direction: column;
