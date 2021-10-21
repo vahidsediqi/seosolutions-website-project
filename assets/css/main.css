@@ -49,10 +49,14 @@ a{
      color: var(--site-red);
      text-decoration: none;
  }
-p{
-    font-family: var(--segoe-font);
+p {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 18;
 }
 
+li {
+    font-family: "Segoe UI", Arial, sans-serif;
+}
 .learn-more-text{
     font-size: 2em;
     font-family: var(--teko-font);
@@ -236,27 +240,38 @@ p{
   /*  */
 .homepage-banner-title-wrapper{
     position: relative;
-    padding-left: 150px;
+    text-align: left;
 }
 
 .homepage-rotate-title{
-    font-size: 7rem;
+    text-transform: uppercase;
+    font-size: 6rem;
     transform: rotate(270deg);
+    transform-origin:(0 0);
     position: absolute;
     top: 0;
     left: 0;
-    margin-top: 180px;
-    margin-left: -170px;
+    margin-left: -180px;
+    margin-top: 150px;
 }
 
 .home-page-half-cut-title{
     display: flex;
     flex-direction: column;
-    font-size: 13rem;
+    font-size: 11rem;
     line-height: 0.8;
     color: var(--site-red);
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 120px;
 }
 
+.homepage-banner-p{
+    margin-top: 55px;
+}
+.move-right{
+    margin-left: 37px;
+}
 
 
 /* BANNER section LET'S TALK BUTTON */
