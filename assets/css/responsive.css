@@ -2,7 +2,9 @@
 
  /* (SMALL SCREEN SIZE) MOBILE SCREEN < 420PX */
 @media only screen and (max-width: 850PX) {
-   
+   .p-text-lign-left-for-mob{
+       text-align: left;
+   }
     .container{
         max-width: 75%;
         margin: 0 auto;
@@ -130,6 +132,10 @@ justify-content: center;
     font-family: var(--teko-font);
     margin: auto;
 }
+
+.learn-more-btn-for-mob:hover{
+    color: white;
+}
    /* banner  */
 
 .homepage-banner-title-wrapper{
@@ -147,10 +153,18 @@ justify-content: center;
 }
 
 .home-page-half-cut-title{
-    display: flex;
     flex-direction: row;
     font-size: 8rem;
-    justify-content: center;
+    margin: auto;   
+    justify-content: center;   
+}
+.homepage-banner-p{
+    margin-top: 2px;
+}
+.move-right {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
 }
 /* why us */
 .why-us-section{
@@ -169,7 +183,7 @@ justify-content: center;
 .why-us-content-wrapper{
     padding: 40px;
 }
-.why-us-content-wrapper > h1{
+.why-us-content-wrapper > h2{
     font-size: 20px;
 }
 
@@ -190,7 +204,7 @@ justify-content: center;
     margin: auto;
     padding-top: 25px;
 }
-.web-design-content-wrapper > h1 {
+.web-design-content-wrapper > h2 {
     font-size: 4rem;
     display: flex;
     flex-direction: row;
@@ -198,9 +212,7 @@ justify-content: center;
     justify-content: center;
 }
 
-.web-design-content-wrapper > h1 {
-  font-size:4;
-}
+
 /* SEO SECTION */
 
 .SEO-section{
@@ -219,7 +231,7 @@ justify-content: center;
     font-size: 2em;
 }
 
-.SEO-content-wrapper > h1{
+.SEO-content-wrapper > h2{
     font-size: 6rem;
     margin-bottom: 25px;
 }
@@ -252,6 +264,7 @@ justify-content: center;
     flex-direction: column-reverse;
     max-width: 100%;
     align-items: center;
+    grid-gap: 5px;
 }
 
 .rotate-text{
@@ -266,6 +279,7 @@ justify-content: center;
   max-width: 100%;
   text-align: center;
   padding: 15px;
+
 }
 
 .logo-design-content-wrapper > h1 {
