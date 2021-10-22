@@ -425,6 +425,17 @@ justify-content: center;
 PAGE LOGO DESIGN 
 ================ */
 
+.logo-design-extra-text > div{
+    max-width: 97%;
+    padding: 20px;
+    margin-top: 25px;
+   }
+   
+   .logo-design-extra-text > div > h2 {
+       font-size: 3rem;
+   }
+   
+   /*  */
 .logo-design-half-cut-title{
     display: flex;
     flex-direction: row;
