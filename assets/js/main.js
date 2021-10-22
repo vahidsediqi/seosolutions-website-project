@@ -61,6 +61,7 @@ $(window).scroll(function(){
 
 // Read more 
 
+
 function ReadMore() {
   var dots = document.getElementById("dots");
   var moreText = document.getElementById("more");
@@ -76,3 +77,5 @@ function ReadMore() {
     moreText.style.display = "inline";
   }
 }
+
+document.getElementById('myBtn').addEventListener('click', ReadMore);

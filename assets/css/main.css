@@ -67,15 +67,17 @@ li {
     display: none;
 }
 #more {display: none;}
-.readmorebtn{
+
+
+#myBtn{
     background-color: transparent;
-    border: 0;
-    display: inline;
     cursor: pointer;
+    color: var(--site-red) !important;
 }
 
-.readmorebtn:focus{
-    border: 1px white solid;
+
+#myBtn:hover{
+  color: black;
 }
 .section-p{
     font-size: 19px;
