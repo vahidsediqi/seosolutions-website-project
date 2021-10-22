@@ -432,8 +432,12 @@ PAGE LOGO DESIGN
    }
    
    .logo-design-extra-text > div > h2 {
-       font-size: 3rem;
+       font-size: 2rem;
    }
+
+   .logo-design-extra-text > div > p {
+    font-size: 16;
+}
    
    /*  */
 .logo-design-half-cut-title{
@@ -578,18 +582,28 @@ PAGE LOGO DESIGN
 /* CTA SECTOIN */
 
 .cta-content-wrapper{
-    margin: 45px auto;
+    margin: 15px auto;
     text-align: center;
     padding: auto;
 }
 
+.cta-input{
+    display: flex;
+    flex-direction: row;
+}
+
+.cta-content-wrapper > h2 {
+    font-size: 2rem;
+}
 .cta-input {
-    width: 56%;  
+    width: 100%;  
 }
 
 .cta-form-button{
-    width: 35%;
+    margin-top: -55px;
+    width: 100%;
     font-size: 2rem;
+    margin-bottom: 55px;
 }
 .cta-overlay-text{
 display: none;
