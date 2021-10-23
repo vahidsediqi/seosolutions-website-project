@@ -499,7 +499,7 @@ input::-webkit-input-placeholder {
     margin-top: 70px;
     height: 700px;
     width: 100%;
-    background-image: url('../images/vena.jpg');
+    background-image: url('../images/vena-min.webp');
     background-position: center;
     background-size: cover;
     display: flex;
@@ -1190,7 +1190,7 @@ align-items: center;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     justify-items: center;
-    background-image: url('../images/footer-bg.jpg');
+    background-image: url('../images/footer-bg-min.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
