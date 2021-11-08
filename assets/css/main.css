@@ -774,6 +774,7 @@ line-height: 0.5;
     grid-gap: 10px;
 }
 
+
 .landscape-card{
     justify-content: center;
     align-items: center; 
@@ -1010,6 +1011,9 @@ margin-bottom: 350px;
  display: none;
 }
 
+.card-body{
+    font-size: 17px;
+}
 /* ----------------
 MOBILE PROCESS
 ---------------- */
