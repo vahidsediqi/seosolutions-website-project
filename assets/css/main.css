@@ -43,6 +43,7 @@ h2{
 
 h3{
     font-family: var(--teko-font);
+    font-size: 2rem;
 }
 a{
     color: var(--site-black);
@@ -630,11 +631,11 @@ line-height: 0.5;
     margin: 125px auto auto auto;
     display: grid;
     grid-template-columns: 1.5fr 1fr;
-    grid-gap: 95px;
     align-items: center;
+    justify-items: center;
 }
-.seo-banner-content-wrapper{
-    margin-left: 60px;
+.seo-banner-content-wrapper p{
+    max-width: 500px;
 }
 
 /* SEO PROMOTION SECTION  */
@@ -665,10 +666,17 @@ line-height: 0.5;
 }
 
 .promotion-section-wrapper > .row > .col p {
-  max-width: 600px;
   margin: 0 auto;
+  font-size: 20px;
 }
 
+.promotion-section-wrapper > .row > .col {
+    margin-bottom: 55px;
+}
+.long-red-title{
+    color: var(--site-red);
+    font-size: 5rem;
+}
 .pro-inner-div{
     background-color: var(--site-red);
     display: flex;
