@@ -633,6 +633,10 @@ display: none;
 /* ===============================================
                 PAGE SEO 
 =============================================== */
+.long-red-title{
+    line-height: 0.8;
+    font-size: 4rem;
+}
 .seo-banner{
     grid-template-columns: 1fr;
     grid-gap: 1px;

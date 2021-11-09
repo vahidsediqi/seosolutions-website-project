@@ -566,6 +566,14 @@ input::-webkit-input-placeholder {
  text-align: center;
 }
 
+.blog-exper {
+    color: white;
+    font-family: var(--segoe-font);
+    display: block;
+    padding-bottom: 25px;
+    font-size: 20px;
+}
+
 .blog-section-title{
  padding-top: 80px;
 }
