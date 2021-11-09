@@ -1003,9 +1003,20 @@ LOGO DESIGN PAGE
 .logo-design-half-cut-title{
     display: flex;
     flex-direction: column;
-    font-size: 12rem;
+    font-size: 9rem;
     line-height: 0.8;
     color: var(--site-red);
+}
+.logo-design-rotate-title{
+    text-transform: uppercase;
+    font-size: 6rem;
+    transform: rotate(270deg);
+    transform-origin:(0 0);
+    position: absolute;
+    bottom: 5%;
+    right: 0;
+    margin-right: 380px;
+    margin-bottom: 75px;
 }
 .idea-section{
     margin: 115px auto;
