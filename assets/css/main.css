@@ -443,9 +443,13 @@ li {
     padding-top: 3px;
     padding-left: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    color: white;
 }
 
+.form-wrapper textarea {
+    font-size: 1.2rem;
+}
 input::-webkit-input-placeholder {
     color: #fff !important;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -481,8 +485,7 @@ input::-webkit-input-placeholder {
         padding-top: 45px;
     }
 .form-wrapper{
-    width: 570px;
-    margin-left: 70px;
+    width: 770px;
     text-align: center;
 }
 
@@ -602,8 +605,9 @@ line-height: 0.5;
     align-items: center;
 }
 
-.more-blog h1{
-    font-size: 4rem;
+.more-blog a{
+    font-size:3rem;
+    font-weight: 700;
     color: var(--site-red);
     font-family: var(--segoe-font);
 }
