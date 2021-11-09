@@ -508,9 +508,12 @@ PAGE LOGO DESIGN
 }
 
 .app-dev-banner-title{
-    font-size: 6rem;
+    font-size: 3rem;
 } 
 
+.app-design-subtitle{
+    line-height: 0.9;
+}
 .idea-section{
     margin: 0px auto;
     grid-template-columns: 100%; 
