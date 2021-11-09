@@ -533,10 +533,10 @@ input::-webkit-input-placeholder {
 .services-wrapper{
  background-color: #000000;
  height: 600px;
- display: flex;
  align-items: center;
- justify-content: space-around;
- 
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ justify-items: center;
 }
 
 

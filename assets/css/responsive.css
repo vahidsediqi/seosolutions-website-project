@@ -362,10 +362,10 @@ justify-content: center;
 
 /* Home page services */
 .services-wrapper{
-    flex-direction: column;
-    justify-items: center;
-    height: auto;
-    padding: 30px;
+    grid-template-columns: 1fr;
+    align-items: flex-start;
+    padding-top: 20px;
+    
    }
    
    .service-title-wrapper{
