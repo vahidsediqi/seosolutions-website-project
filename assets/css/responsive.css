@@ -337,8 +337,10 @@ justify-content: center;
 
 .contact-subtitle{
  font-family: var(--teko-font);
- font-size: 4rem;
+ font-size: 2rem;
  line-height: 1;
+ font-weight: 700;
+ text-transform: capitalize;
 }
 
 /* show case section */
