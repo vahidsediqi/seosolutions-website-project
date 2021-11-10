@@ -465,8 +465,8 @@ PAGE LOGO DESIGN
   font-weight: 600;
 }
 
-.sub-upper-title-wrapper > h1:nth-of-type(1){
-  font-size: 280px;
+.sub-upper-title-wrapper > h2:nth-of-type(1){
+  font-size: 75px;
   color: var(--site-red);
   font-family: var(--teko-font); 
   line-height: 0.8;
