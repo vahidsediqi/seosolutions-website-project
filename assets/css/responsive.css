@@ -440,13 +440,43 @@ PAGE LOGO DESIGN
 }
    
    /*  */
+
+   .logo-design-banner-title-wrapper{
+    position: relative;
+    text-align: left;
+}
+
+.logo-design-banner-title-wrapper{
+    position: relative;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .logo-design-half-cut-title{
     display: flex;
     flex-direction: row;
     font-size: 5rem;
-    justify-content: center;
+    line-height: 0.8;
+    color: var(--site-red);
+    text-transform: uppercase;
+    margin: auto;
+}
+.logo-design-rotate-title{
+    text-transform: uppercase;
+    font-size: 3rem;
+    transform: rotate(0);
+    position: relative;
+    margin: auto;
+    margin-top: auto;
 }
 
+.logodesign-page-desc{
+    margin-top: 25px;
+    text-align: center;
+}
 /* card style */
 
 .webdesign-card-wrapper {

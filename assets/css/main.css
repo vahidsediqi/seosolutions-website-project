@@ -1040,8 +1040,10 @@ LOGO DESIGN PAGE
     margin-left: 120px;
 }
 
-
-
+.logodesign-page-desc{
+    margin-top: 55px;
+    max-width: 450px;
+}
 
 .idea-section{
     margin: 115px auto;
