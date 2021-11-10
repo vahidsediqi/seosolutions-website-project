@@ -1006,24 +1006,43 @@ LOGO DESIGN PAGE
     font-size: 18px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.logo-design-half-cut-title{
-    display: flex;
-    flex-direction: column;
-    font-size: 9rem;
-    line-height: 0.8;
-    color: var(--site-red);
+
+.logo-design-banner-title-wrapper{
+    position: relative;
+    text-align: left;
 }
+
+.logo-design-banner-title-wrapper{
+    position: relative;
+    text-align: left;
+}
+
 .logo-design-rotate-title{
     text-transform: uppercase;
     font-size: 6rem;
     transform: rotate(270deg);
     transform-origin:(0 0);
     position: absolute;
-    bottom: 5%;
-    right: 0;
-    margin-right: 380px;
-    margin-bottom: 75px;
+    top: 0;
+    left: 0;
+    margin-left: -230px;
+    margin-top: 150px;
 }
+
+.logo-design-half-cut-title{
+    display: flex;
+    flex-direction: column;
+    font-size: 11rem;
+    line-height: 0.8;
+    color: var(--site-red);
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 120px;
+}
+
+
+
+
 .idea-section{
     margin: 115px auto;
     display: grid;
