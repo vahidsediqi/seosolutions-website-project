@@ -574,6 +574,16 @@ PAGE LOGO DESIGN
 
 }
 
+.wedesign-banner-rotate-text{
+    text-transform: uppercase;
+    font-size: 4rem;
+    transform: rotate(0);
+    position: relative;
+    margin: auto;
+    margin-top: auto;
+    margin-top: 35px;
+}
+
 .webdesign-banner-content-wrapper{
     position: relative;
     padding-top: 0;

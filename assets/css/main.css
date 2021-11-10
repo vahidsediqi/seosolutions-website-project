@@ -104,12 +104,12 @@ li {
 /* HOMEPAGE ALL SECTIONS PARENT OR WRAPPER */
 .homepage-section-wrapper-img-lg {
     display: grid;
-    grid-template-columns: 1.5fr 1fr;
+    grid-template-columns: 1fr 1fr;
     max-width: 85%;
-    margin: 85px auto auto auto;
+    margin: 25px auto auto auto;
     justify-content: center;
     align-items: center;
-    grid-gap: 5%;
+    grid-gap: 8%;
 }
 
 
@@ -215,6 +215,7 @@ li {
     animation: ease-in-out 1s ImageSlid;
 }
 
+
 /* .homepage-banner-content-wrapper{
     animation: ease-in-out 1s ContentSlide;
 } */
@@ -265,6 +266,10 @@ li {
     text-align: left;
 }
 
+.carousel-item > img {
+    width: 100%;
+} 
+
 .homepage-rotate-title{
     text-transform: uppercase;
     font-size: 6rem;
@@ -290,6 +295,7 @@ li {
 
 .homepage-banner-p{
     margin-top: 55px;
+    max-width: 450px;
 }
 .move-right{
     margin-left: 37px;
@@ -788,6 +794,19 @@ line-height: 0.5;
 
 /* IU Expertise */
 
+
+
+.wedesign-banner-rotate-text {
+    text-transform: uppercase;
+    font-size: 7.5rem;
+    transform: rotate(270deg);
+    transform-origin:(0 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: -170px;
+    margin-top: 150px;
+}
 .webdesign-card-wrapper{
     max-width: 85%;
     margin: 55px auto;
@@ -912,7 +931,7 @@ line-height: 0.5;
 
 .sub-upper-title-wrapper > h4:nth-of-type(1){
     font-family: var(--teko-font); 
-    font-size: 4rem;
+    font-size: 3rem;
     max-width: 400px;
     line-height: 0.8;
     font-weight: 600;
