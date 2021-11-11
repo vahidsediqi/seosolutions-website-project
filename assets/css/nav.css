@@ -179,3 +179,10 @@ a.navbar-brand > img{
 }
 
 
+@media screen and (min-device-width: 990px) and (max-device-width: 1540px) { 
+  .navbar .nav-link {
+    font-size: 13px;
+    padding: auto;
+    margin-left: auto;
+  }
+}
