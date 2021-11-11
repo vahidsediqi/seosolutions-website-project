@@ -412,7 +412,8 @@ justify-content: center;
    }
    
    .blog-card div{
-     height: auto;
+    margin-bottom: 0px;
+    padding: auto;
    }
    
    .more-blog h1{
@@ -496,7 +497,12 @@ PAGE LOGO DESIGN
   font-size: 43px;
   font-weight: 600;
 }
-
+.logo-design-card-title{
+    font-size: 2rem;
+}
+.logo-design-card-desc {
+    display: none;
+}
 .sub-upper-title-wrapper > h2:nth-of-type(1){
   font-size: 75px;
   color: var(--site-red);
