@@ -521,6 +521,16 @@ PAGE LOGO DESIGN
     ======================== 
  */
 
+
+ .app-design-extra-title{
+    font-size: 2rem;
+}
+
+.app-extra-subtitle{
+    font-size: 2rem;
+}
+
+
  .app-dev-banner-wrapper{
     grid-template-columns: 1fr;
     grid-gap: 2px;

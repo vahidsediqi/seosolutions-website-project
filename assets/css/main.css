@@ -980,6 +980,14 @@ line-height: 0.5;
 /* ============================
     APP DEVELOPEMT PAGE
 ================================*/
+.app-design-extra-title{
+    color: var(--site-red);
+    font-size: 4rem;
+}
+
+.app-extra-subtitle{
+    font-size: 3rem;
+}
 .app-dev-banner-wrapper{
     margin: 130px auto auto auto;
     max-width: 75%;
