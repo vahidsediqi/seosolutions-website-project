@@ -68,6 +68,9 @@ grid-template-columns: 1fr;
 align-content: center;
 justify-content: center;
 }
+.btn-link > span {
+    font-size: 25px;
+}
 .mob-process-wrapper{
     display: block;
     font-family: 'teko', Tahoma, Geneva, Verdana, sans-serif;;
