@@ -486,7 +486,9 @@ PAGE LOGO DESIGN
     text-align: center;
     margin-top: 45px;
 }
-
+.landscape-card-overlay > p  {
+  font-size: 15px;
+}
 .sub-upper-title-wrapper > p:nth-of-type(1){
     font-family: var(--teko-font);
     font-weight: bold;
@@ -500,9 +502,7 @@ PAGE LOGO DESIGN
 .logo-design-card-title{
     font-size: 2rem;
 }
-.logo-design-card-desc {
-    display: none;
-}
+
 .sub-upper-title-wrapper > h2:nth-of-type(1){
   font-size: 75px;
   color: var(--site-red);
