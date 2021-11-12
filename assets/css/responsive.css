@@ -2,6 +2,31 @@
 
  /* (SMALL SCREEN SIZE) MOBILE SCREEN < 420PX */
 @media only screen and (max-width: 850PX) {
+
+
+/* seo subpages */
+.seo-subpages__banner{
+
+    grid-template-columns: 1fr;
+  
+}
+
+
+.seo-subpage-content-wrapper {
+    max-width: 80%;
+
+}
+
+
+
+
+.inner-one-content {
+ 
+    grid-template-columns: 1fr;
+}
+
+
+    /* end of seo subpages */
    .p-text-lign-left-for-mob{
        text-align: left;
    }
@@ -787,6 +812,9 @@ display: none;
 .footer-inner p a{
     color: #fff;
 }
+
+
+
 
   }
 
