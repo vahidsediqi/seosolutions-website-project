@@ -1332,4 +1332,56 @@ align-items: center;
     color: #fff;
 }
 
+.from-oldsite{
+    max-width: 85%;
+    margin: auto;
+    border: rgb(185, 185, 185) solid 1px;
+    border-radius: 10px;
+    padding: 45px;
+    margin-bottom: 55px;
+}
 
+
+/* seo subpages */
+.seo-subpages__banner{
+    max-width: 75%;
+    margin: auto;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 150px;
+}
+
+.seo-subpages__banner li {
+    font-size: 19px;
+    margin-top: 15px;
+    list-style: none;
+}
+.seo-subpages__banner p {
+    font-size: 19px;
+    margin-top: 15px;
+}
+
+.seo-subpage-content-wrapper {
+    max-width: 75%;
+    margin: 55px auto;
+    padding: 35px;  
+    border: rgb(219, 219, 219) 1px solid;
+    border-radius: 10px;
+}
+
+.seo-subpage-content-wrapper > p {
+    font-size: 22px;
+}
+
+.seo-subpage-content-wrapper li {
+    font-size: 18px;
+    margin-top: 15px;
+    list-style: none;
+}
+
+.inner-one-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
