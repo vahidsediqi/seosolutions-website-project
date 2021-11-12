@@ -1124,12 +1124,13 @@ MOBILE PROCESS
 
 .why-title{
 transform: rotate(90deg);
-font-size: 8rem;
+font-size: 7rem;
 color: white;
 position: absolute;
 right: 0;
 bottom: 0;
-margin-bottom: 55px;
+margin-bottom: 130px;
+text-transform: uppercase;
 }
 /* THE LEFT BLACK BOX */
 .process-inner-1{
@@ -1206,11 +1207,11 @@ justify-content: center;
 position: absolute;
 transform: rotate(90deg);
 right: 0;
-margin: 250px;
 font-size: 8rem;
 box-sizing: border-box;
 margin-right: -170px;
-margin-top: 222px;
+margin-top: 245px;
+text-transform: uppercase;
 }
 
 /* collapse wrapper */
