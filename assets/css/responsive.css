@@ -6,25 +6,32 @@
 
 /* seo subpages */
 .seo-subpages__banner{
-
+   max-width: 100%;
     grid-template-columns: 1fr;
+    padding: 20px;
   
 }
 
 
 .seo-subpage-content-wrapper {
-    max-width: 80%;
+    max-width: 95%;
+    padding: 25px;
 
 }
 
-
-
+.seo-subpage-title {
+    color: var(--site-red);
+    font-size: 4rem;
+}
 
 .inner-one-content {
  
     grid-template-columns: 1fr;
 }
 
+.for-long-word{
+    font-size: 30px;
+}
 
     /* end of seo subpages */
    .p-text-lign-left-for-mob{

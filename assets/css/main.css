@@ -1359,6 +1359,10 @@ align-items: center;
     margin-top: 15px;
     list-style: none;
 }
+.seo-subpage-title {
+    color: var(--site-red);
+    font-size: 5rem;
+}
 .seo-subpages__banner p {
     font-size: 19px;
     margin-top: 15px;
