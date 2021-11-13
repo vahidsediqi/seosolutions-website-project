@@ -1339,6 +1339,7 @@ align-items: center;
     border-radius: 10px;
     padding: 45px;
     margin-bottom: 55px;
+    display: none;
 }
 
 
