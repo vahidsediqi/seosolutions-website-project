@@ -1282,7 +1282,10 @@ justify-content: center;
 align-items: center;
 }
 
-
+.breadcrumb {
+    margin-left: -15px;
+    background-color: transparent;
+}
 /* FOOTER SECTION */
    .footer-section-wrapper{
     display: grid;
