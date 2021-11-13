@@ -69,11 +69,11 @@ function ReadMore() {
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";
-    btnText.innerHTML = "Weiterlesen"; 
+    btnText.innerHTML = `Weiterlesen <i class="fas fa-sort-down"></i>`; 
     moreText.style.display = "none";
   } else {
     dots.style.display = "none";
-    btnText.innerHTML = "Lese weniger"; 
+    btnText.innerHTML = `Lese weniger <i class="fas fa-sort-up"></i>`; 
     moreText.style.display = "inline";
   }
 }

@@ -76,13 +76,10 @@ li {
     background-color: transparent;
     cursor: pointer;
     color: var(--site-red) !important;
-    font-size: 25px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    font-family: var(--teko-font)
 }
 
-#myBtn::after{
-    content: ' >>';
-}
 
 #myBtn:hover{
   color: black;
